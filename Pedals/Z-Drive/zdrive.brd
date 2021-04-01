@@ -531,6 +531,47 @@ Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.</descri
 </package3d>
 </packages3d>
 </library>
+<library name="SparkFun-Switches" urn="urn:adsk.eagle:library:535">
+<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
+In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SWITCH_SPDT_PTH_11.6X4.0MM" urn="urn:adsk.eagle:footprint:40121/1" library_version="1">
+<description>&lt;h3&gt;SPDT PTH Slide Switch&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="2.54" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="0" y="-2.54" drill="1.016" diameter="1.8796"/>
+<text x="-2.413" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="2.413" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="SWITCH_SPDT_PTH_11.6X4.0MM" urn="urn:adsk.eagle:package:40177/1" type="box" library_version="1">
+<description>SPDT PTH Slide Switch
+Single-pole, double-throw (SPDT) switch.
+Dimensional Drawing</description>
+<packageinstances>
+<packageinstance name="SWITCH_SPDT_PTH_11.6X4.0MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -871,6 +912,16 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="DIO-09176" x="5.08" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="6.604" y="11.43" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
+<element name="C8" library="Custom-Parts" package="CAP-PTH-SMALL-KIT" value="1NF" x="-53.34" y="-2.54" smashed="yes">
+<attribute name="NAME" x="-55.118" y="-1.016" size="0.6096" layer="25"/>
+<attribute name="VALUE" x="-55.118" y="-4.572" size="0.6096" layer="27"/>
+</element>
+<element name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="SWITCH_SPDT_PTH_11.6X4.0MM" package3d_urn="urn:adsk.eagle:package:40177/1" value="" x="-59.69" y="1.27" smashed="yes">
+<attribute name="NAME" x="-62.103" y="1.27" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PROD_ID" value="SWCH-08261" x="-59.69" y="1.27" size="1.778" layer="27" display="off"/>
+<attribute name="SF_SKU" value="COM-00102" x="-59.69" y="1.27" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-57.277" y="1.27" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -962,15 +1013,15 @@ design rules under a new name.</description>
 <wire x1="-44.45" y1="48.26" x2="-44.37" y2="15.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V2">
-<contactref element="C4" pad="1"/>
 <contactref element="R6" pad="P$2"/>
 <contactref element="R7" pad="P$1"/>
 <contactref element="C7" pad="1"/>
 <contactref element="R2" pad="P$2"/>
-<wire x1="34.29" y1="10.16" x2="34.29" y2="13.97" width="0" layer="19" extent="1-1"/>
-<wire x1="27.92" y1="8.89" x2="34.29" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="22.733" y1="15.24" x2="27.92" y2="8.89" width="0" layer="19" extent="1-1"/>
-<wire x1="19.05" y1="16.51" x2="22.733" y2="15.24" width="0" layer="19" extent="1-1"/>
+<contactref element="S1" pad="2"/>
+<wire x1="19.05" y1="16.51" x2="-59.69" y2="1.27" width="0" layer="19" extent="1-1"/>
+<wire x1="27.92" y1="8.89" x2="19.05" y2="16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="34.29" y1="10.16" x2="27.92" y2="8.89" width="0" layer="19" extent="1-1"/>
+<wire x1="34.29" y1="13.97" x2="34.29" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R5" pad="P$1"/>
@@ -978,11 +1029,13 @@ design rules under a new name.</description>
 <wire x1="-16.59" y1="15.24" x2="12.7" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
-<contactref element="C4" pad="2"/>
 <contactref element="VOICE" pad="1"/>
 <contactref element="VOICE" pad="2"/>
-<wire x1="-21.59" y1="15.24" x2="25.527" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="-26.59" y1="15.24" x2="-21.59" y2="15.24" width="0" layer="19" extent="1-1"/>
+<contactref element="C8" pad="2"/>
+<contactref element="C4" pad="2"/>
+<wire x1="-26.59" y1="15.24" x2="-51.943" y2="-2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.59" y1="15.24" x2="-26.59" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="25.527" y1="15.24" x2="-21.59" y2="15.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="D1" pad="C"/>
@@ -1028,6 +1081,16 @@ design rules under a new name.</description>
 <contactref element="IN" pad="1"/>
 <contactref element="D5" pad="A"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="6.35" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$11">
+<contactref element="S1" pad="3"/>
+<contactref element="C4" pad="1"/>
+<wire x1="22.733" y1="15.24" x2="-59.69" y2="-1.27" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="S1" pad="1"/>
+<contactref element="C8" pad="1"/>
+<wire x1="-54.737" y1="-2.54" x2="-59.69" y2="3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
