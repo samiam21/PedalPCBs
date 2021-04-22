@@ -153,10 +153,10 @@
 <wire x1="0" y1="0" x2="55.88" y2="0" width="0.1524" layer="20"/>
 <wire x1="55.88" y1="0" x2="55.88" y2="44.45" width="0.1524" layer="20"/>
 <wire x1="45.72" y1="54.61" x2="10.16" y2="54.61" width="0.1524" layer="20"/>
-<text x="23.495" y="46.99" size="0.6096" layer="27" rot="R90">0.1NF</text>
-<text x="19.05" y="46.355" size="0.6096" layer="27" rot="R90">C4</text>
-<text x="48.26" y="3.81" size="0.6096" layer="27" ratio="20">GND</text>
-<text x="1.905" y="3.81" size="0.6096" layer="27" ratio="20">9V</text>
+<text x="23.495" y="46.99" size="0.6096" layer="25" rot="R90">0.1NF</text>
+<text x="19.05" y="46.355" size="0.6096" layer="25" rot="R90">C4</text>
+<text x="48.26" y="3.81" size="0.6096" layer="25" ratio="20">GND</text>
+<text x="1.905" y="3.81" size="0.6096" layer="25" ratio="20">9V</text>
 </plain>
 <libraries>
 <library name="Custom-Parts">
@@ -776,61 +776,61 @@ design rules under a new name.</description>
 <elements>
 <element name="C1" library="Custom-Parts" package="CAP-PTH-SMALL-KIT" value="470NF" x="7.62" y="11.43" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.144" y="13.208" size="0.6096" layer="25" rot="R270"/>
-<attribute name="VALUE" x="5.588" y="13.208" size="0.6096" layer="27" rot="R270"/>
+<attribute name="VALUE" x="5.588" y="13.208" size="0.6096" layer="25" rot="R270"/>
 </element>
 <element name="C2" library="Custom-Parts" package="CAP-PTH-SMALL-KIT" value="3.3NF" x="12.7" y="6.35" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.478" y="4.826" size="0.6096" layer="25" rot="R180"/>
-<attribute name="VALUE" x="14.478" y="8.382" size="0.6096" layer="27" rot="R180"/>
+<attribute name="VALUE" x="14.478" y="8.382" size="0.6096" layer="25" rot="R180"/>
 </element>
 <element name="C3" library="Custom-Parts" package="CAP-PTH-SMALL-KIT" value="470NF" x="52.07" y="27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.546" y="29.337" size="0.6096" layer="25" rot="R90"/>
-<attribute name="VALUE" x="54.102" y="25.527" size="0.6096" layer="27" rot="R90"/>
+<attribute name="VALUE" x="54.102" y="25.527" size="0.6096" layer="25" rot="R90"/>
 </element>
 <element name="C4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="CAP-PTH-SMALL-KIT" package3d_urn="urn:adsk.eagle:package:37428/1" value="0.1uF" x="20.955" y="48.895" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-08370" x="-36.195" y="19.685" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C5" library="Custom-Parts" package="CAP-PTH-SMALL-KIT" value="100PF" x="48.26" y="27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.736" y="29.337" size="0.6096" layer="25" rot="R90"/>
-<attribute name="VALUE" x="50.292" y="25.527" size="0.6096" layer="27" rot="R90"/>
+<attribute name="VALUE" x="50.292" y="25.527" size="0.6096" layer="25" rot="R90"/>
 </element>
 <element name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="CPOL-RADIAL-2.5MM-6.5MM" package3d_urn="urn:adsk.eagle:package:37415/1" value="100uF" x="13.97" y="12.7" smashed="yes">
 <attribute name="NAME" x="13.97" y="13.589" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-08439" x="40.64" y="-16.51" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="13.97" y="11.176" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="VALUE" x="13.97" y="11.176" size="0.6096" layer="25" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="C7" library="Custom-Parts" package="CPOL-RADIAL-2.5MM-6.5MM" package3d_urn="urn:adsk.eagle:package:37415/1" value="47uF" x="43.18" y="5.08" smashed="yes">
 <attribute name="NAME" x="43.18" y="5.334" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-08439" x="77.47" y="-24.13" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="43.18" y="1.651" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="VALUE" x="43.18" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="C8" library="Custom-Parts" package="CAP-PTH-SMALL-KIT" value="1NF" x="36.195" y="46.355" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.671" y="44.577" size="0.6096" layer="25" rot="R90"/>
-<attribute name="VALUE" x="38.227" y="44.577" size="0.6096" layer="27" rot="R90"/>
+<attribute name="VALUE" x="38.227" y="44.577" size="0.6096" layer="25" rot="R90"/>
 </element>
 <element name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="DIODE-1N4001-KIT" package3d_urn="urn:adsk.eagle:package:38455/1" value="BAT41" x="6.35" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="4.826" y="35.56" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-09176" x="45.72" y="67.31" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="5.969" y="35.56" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<attribute name="VALUE" x="5.969" y="35.56" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="DIODE-1N4001-KIT" package3d_urn="urn:adsk.eagle:package:38455/1" value="BAT41" x="52.07" y="15.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.546" y="15.24" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-09176" x="91.44" y="59.69" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="51.689" y="15.24" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<attribute name="VALUE" x="51.689" y="15.24" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="D3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="DIODE-1N4001-KIT" package3d_urn="urn:adsk.eagle:package:38455/1" value="BAT41" x="46.99" y="15.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="44.704" y="15.24" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-09176" x="2.54" y="-3.81" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="47.371" y="15.24" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="VALUE" x="47.371" y="15.24" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="D5" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="DIODE-1N4001-KIT" package3d_urn="urn:adsk.eagle:package:38455/1" value="BAT41" x="2.54" y="11.43" smashed="yes" rot="R90">
 <attribute name="NAME" x="1.016" y="11.43" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-09176" x="46.99" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="2.159" y="11.43" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<attribute name="VALUE" x="2.159" y="11.43" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="GAIN" library="Custom-Parts" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="B500k" x="26.035" y="33.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="24.765" y="31.115" size="1.27" layer="26" rot="R90"/>
+<attribute name="NAME" x="24.765" y="31.115" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="8" x="29.845" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="34.925" y="31.115" size="1.27" layer="28" rot="R90"/>
+<attribute name="VALUE" x="34.925" y="31.115" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="IC1" library="SamacSys_Parts" package="DIP794W53P254L959H508Q8N" value="MC1458P" x="10.16" y="21.59" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="General usage dual op-amp,MC1458P DIP8 Texas Instruments MC1458P, Dual Op Amp, 1MHz, 8-Pin PDIP" x="-20.32" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
@@ -840,7 +840,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PART_NUMBER" value="595-MC1458P" x="-20.32" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/MC1458P?qs=YhsVCygOPE1MedllaWxE%252BA%3D%3D" x="-20.32" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="10.16" y="21.59" size="1.27" layer="25" rot="R270" align="center"/>
-<attribute name="VALUE" x="16.51" y="21.59" size="1.27" layer="27" rot="R270" align="center"/>
+<attribute name="VALUE" x="16.51" y="21.59" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="IN" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="" x="3.81" y="2.54" smashed="yes">
 <attribute name="NAME" x="7.62" y="3.937" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -858,7 +858,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PART_NUMBER" value="512-2N7000" x="-31.75" y="83.82" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/2N7000/?qs=FOlmdCx%252BAA2o%2FKZOTk%2F3hg%3D%3D" x="-31.75" y="83.82" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="11.43" y="36.83" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="11.43" y="41.275" size="1.27" layer="27" rot="R180" align="center"/>
+<attribute name="VALUE" x="11.43" y="41.275" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="Q2" library="SamacSys_Parts" package="TO-92_(TO-226)" value="2N7000" x="12.7" y="33.02" smashed="yes">
 <attribute name="DESCRIPTION" value="N-channel MOSFET,2N7000 0.2A 60V" x="62.23" y="-12.7" size="1.778" layer="27" display="off"/>
@@ -868,47 +868,47 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PART_NUMBER" value="512-2N7000" x="62.23" y="-12.7" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/2N7000/?qs=FOlmdCx%252BAA2o%2FKZOTk%2F3hg%3D%3D" x="62.23" y="-12.7" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="11.43" y="34.925" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="11.43" y="29.845" size="1.27" layer="27" align="center"/>
+<attribute name="VALUE" x="11.43" y="29.845" size="1.27" layer="25" align="center"/>
 </element>
 <element name="R1" library="Custom-Parts" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="2M" x="27.94" y="3.81" smashed="yes" rot="R180">
 <attribute name="NAME" x="27.94" y="2.794" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-09329" x="10.16" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="27.94" y="3.556" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="VALUE" x="27.94" y="3.556" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="R2" library="Custom-Parts" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="470K" x="2.54" y="33.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.556" y="33.02" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-09329" x="-46.99" y="5.08" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="2.794" y="33.02" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="VALUE" x="2.794" y="33.02" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="10k" x="45.72" y="36.83" smashed="yes" rot="R270">
 <attribute name="NAME" x="44.196" y="36.83" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-09435" x="-3.81" y="-1.27" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="45.974" y="36.83" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="VALUE" x="45.974" y="36.83" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="1k" x="49.53" y="36.83" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.514" y="36.83" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-08380" x="99.06" y="85.09" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="49.276" y="36.83" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<attribute name="VALUE" x="49.276" y="36.83" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="1k" x="16.51" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="15.494" y="35.56" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-08380" x="69.85" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="16.256" y="35.56" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<attribute name="VALUE" x="16.256" y="35.56" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="10k" x="15.24" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.256" y="48.26" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-09435" x="-38.1" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="15.494" y="48.26" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="VALUE" x="15.494" y="48.26" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="10k" x="2.54" y="22.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.556" y="22.86" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-09435" x="-50.8" y="-15.24" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="2.794" y="22.86" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="VALUE" x="2.794" y="22.86" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="1k" x="41.91" y="36.83" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.894" y="36.83" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-08380" x="95.25" y="85.09" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="41.656" y="36.83" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<attribute name="VALUE" x="41.656" y="36.83" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="SWITCH_SPDT_PTH_11.6X4.0MM" package3d_urn="urn:adsk.eagle:package:40177/1" value="" x="27.94" y="47.625" smashed="yes" rot="R180">
 <attribute name="NAME" x="30.353" y="47.625" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -917,19 +917,19 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="25.527" y="47.625" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="TONE" library="Custom-Parts" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="B50k" x="29.845" y="15.24" smashed="yes" rot="R270">
-<attribute name="NAME" x="33.655" y="17.145" size="1.27" layer="26" rot="R270"/>
+<attribute name="NAME" x="33.655" y="17.145" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="8" x="26.035" y="-30.48" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="33.02" y="12.7" size="1.27" layer="28" rot="R90"/>
+<attribute name="VALUE" x="33.02" y="12.7" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="VOICE" library="Custom-Parts" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="B10k" x="26.035" y="15.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="22.86" y="12.065" size="1.27" layer="26" rot="R90"/>
+<attribute name="NAME" x="22.86" y="12.065" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="8" x="42.545" y="36.83" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="24.765" y="12.065" size="1.27" layer="28" rot="R90"/>
+<attribute name="VALUE" x="24.765" y="12.065" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="VOL" library="Custom-Parts" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="B100k" x="29.845" y="33.02" smashed="yes" rot="R270">
-<attribute name="NAME" x="31.75" y="34.925" size="1.27" layer="26" rot="R270"/>
+<attribute name="NAME" x="31.75" y="34.925" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="8" x="13.335" y="-6.35" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="20.955" y="35.56" size="1.27" layer="28" rot="R270"/>
+<attribute name="VALUE" x="20.955" y="35.56" size="1.27" layer="25" rot="R270"/>
 </element>
 </elements>
 <signals>
