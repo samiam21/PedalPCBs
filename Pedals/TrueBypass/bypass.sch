@@ -158,125 +158,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="SparkFun-Switches" urn="urn:adsk.eagle:library:535">
-<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
-In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="STOMP_SWITCH_3PDT" urn="urn:adsk.eagle:footprint:40098/1" library_version="1">
-<description>&lt;h3&gt;3-Pole, Double-Throw (3PDT) Stomp Switch&lt;/h3&gt;
-&lt;p&gt;Three-pole, double-throw stomp switch. Drawn as three separate gates for schematic clarity.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.mouser.com/ds/2/13/SF17_SF12030F-492761.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<pad name="P$1" x="-5.3" y="4.8" drill="1.2" diameter="2.54"/>
-<pad name="P$2" x="-5.3" y="0" drill="1.2" diameter="2.54"/>
-<pad name="P$3" x="-5.3" y="-4.8" drill="1.2" diameter="2.54"/>
-<pad name="P$4" x="0" y="4.8" drill="1.2" diameter="2.54"/>
-<pad name="P$5" x="0" y="0" drill="1.2" diameter="2.54"/>
-<pad name="P$6" x="0" y="-4.8" drill="1.2" diameter="2.54"/>
-<pad name="P$7" x="5.3" y="4.8" drill="1.2" diameter="2.54"/>
-<pad name="P$8" x="5.3" y="0" drill="1.2" diameter="2.54"/>
-<pad name="P$9" x="5.3" y="-4.8" drill="1.2" diameter="2.54"/>
-<circle x="0" y="0" radius="6.1" width="0.127" layer="51"/>
-<wire x1="-9.85" y1="8.5" x2="9.85" y2="8.5" width="0.2032" layer="21"/>
-<wire x1="9.85" y1="8.5" x2="9.85" y2="-8.5" width="0.2032" layer="21"/>
-<wire x1="9.85" y1="-8.5" x2="-9.85" y2="-8.5" width="0.2032" layer="21"/>
-<wire x1="-9.85" y1="-8.5" x2="-9.85" y2="8.5" width="0.2032" layer="21"/>
-<wire x1="1" y1="6" x2="1" y2="-6" width="0.127" layer="51"/>
-<wire x1="1" y1="-6" x2="-1" y2="-6" width="0.127" layer="51"/>
-<wire x1="-1" y1="-6" x2="-1" y2="6" width="0.127" layer="51"/>
-<wire x1="-1" y1="6" x2="1" y2="6" width="0.127" layer="51"/>
-<wire x1="6.3" y1="6" x2="4.3" y2="6" width="0.127" layer="51"/>
-<wire x1="4.3" y1="6" x2="4.3" y2="-6" width="0.127" layer="51"/>
-<wire x1="4.3" y1="-6" x2="6.3" y2="-6" width="0.127" layer="51"/>
-<wire x1="6.3" y1="-6" x2="6.3" y2="6" width="0.127" layer="51"/>
-<wire x1="-6.3" y1="6" x2="-6.3" y2="-6" width="0.127" layer="51"/>
-<wire x1="-6.3" y1="-6" x2="-4.3" y2="-6" width="0.127" layer="51"/>
-<wire x1="-4.3" y1="-6" x2="-4.3" y2="6" width="0.127" layer="51"/>
-<wire x1="-4.3" y1="6" x2="-6.3" y2="6" width="0.127" layer="51"/>
-<text x="0" y="8.636" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-8.636" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="STOMP_SWITCH_3PDT" urn="urn:adsk.eagle:package:40159/1" type="box" library_version="1">
-<description>3-Pole, Double-Throw (3PDT) Stomp Switch
-Three-pole, double-throw stomp switch. Drawn as three separate gates for schematic clarity.
-Datasheet</description>
-<packageinstances>
-<packageinstance name="STOMP_SWITCH_3PDT"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="SW_SPDT_POL" urn="urn:adsk.eagle:symbol:40097/1" library_version="1">
-<description>&lt;h3&gt;SPST Switch w/ Polarity Mark&lt;/h3&gt;
-&lt;p&gt;Used by 3PDT switch. Drawn as three separate gates for schematic clarity.&lt;/p&gt;</description>
-<wire x1="-2.54" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0.635" y2="-2.54" width="0.127" layer="94"/>
-<wire x1="0" y1="2.54" x2="0.635" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="-1.778" x2="-1.27" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="2.032" x2="-1.524" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="1.27" x2="-1.016" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.27" x2="-1.27" y2="2.032" width="0.254" layer="94"/>
-<circle x="0" y="2.54" radius="0.3592" width="0.2032" layer="94"/>
-<circle x="0" y="-2.54" radius="0.3592" width="0.2032" layer="94"/>
-<circle x="-2.54" y="0" radius="0.3592" width="0.2032" layer="94"/>
-<text x="-1.27" y="3.302" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="-1.27" y="-3.302" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
-<pin name="P" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="S" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="O" x="2.54" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SWITCH-3PDT" urn="urn:adsk.eagle:component:40200/1" prefix="S" library_version="1">
-<description>&lt;h3&gt;3-Pole, Double-Throw (3PDT) Switch&lt;/h3&gt;
-&lt;p&gt;Three-pole, double-throw stomp switch. Drawn as three separate gates for schematic clarity.&lt;/p&gt;
-&lt;h4&gt;SparkFun Products&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Used in &lt;a href="https://www.sparkfun.com/products/13124"&gt;SparkFun Proto Pedal&lt;/a&gt; (PRT-13124)&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="A" symbol="SW_SPDT_POL" x="0" y="7.62" addlevel="always"/>
-<gate name="B" symbol="SW_SPDT_POL" x="17.78" y="7.62" addlevel="always"/>
-<gate name="C" symbol="SW_SPDT_POL" x="35.56" y="7.62" addlevel="always"/>
-</gates>
-<devices>
-<device name="-PTH-STOMP" package="STOMP_SWITCH_3PDT">
-<connects>
-<connect gate="A" pin="O" pad="P$1"/>
-<connect gate="A" pin="P" pad="P$2"/>
-<connect gate="A" pin="S" pad="P$3"/>
-<connect gate="B" pin="O" pad="P$4"/>
-<connect gate="B" pin="P" pad="P$5"/>
-<connect gate="B" pin="S" pad="P$6"/>
-<connect gate="C" pin="O" pad="P$7"/>
-<connect gate="C" pin="P" pad="P$8"/>
-<connect gate="C" pin="S" pad="P$9"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40159/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-13197"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Custom-Parts">
 <packages>
 <package name="MOLEX-1X2" urn="urn:adsk.eagle:footprint:37655/1" locally_modified="yes">
@@ -665,6 +546,116 @@ Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.</descri
 </deviceset>
 </devicesets>
 </library>
+<library name="mb_3pdt">
+<description>CLIFF 3PDT</description>
+<packages>
+<package name="3PDT">
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.127" layer="21"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.127" layer="21"/>
+<pad name="A1" x="-5.08" y="5.08" drill="2.7" diameter="1.9304"/>
+<pad name="B1" x="0" y="5.08" drill="2.7" diameter="1.9304"/>
+<pad name="C1" x="5.08" y="5.08" drill="2.7" diameter="1.9304"/>
+<pad name="A2" x="-5.08" y="0" drill="2.7" diameter="1.9304"/>
+<pad name="B2" x="0" y="0" drill="2.7" diameter="1.9304"/>
+<pad name="C2" x="5.08" y="0" drill="2.7" diameter="1.9304"/>
+<pad name="A3" x="-5.08" y="-5.08" drill="2.7" diameter="1.9304"/>
+<pad name="B3" x="0" y="-5.08" drill="2.7" diameter="1.9304"/>
+<pad name="C3" x="5.08" y="-5.08" drill="2.7" diameter="1.9304"/>
+<text x="-5.715" y="7.62" size="1.27" layer="21">A</text>
+<text x="-0.635" y="7.62" size="1.27" layer="21">B</text>
+<text x="4.445" y="7.62" size="1.27" layer="21">C</text>
+<text x="-7.62" y="4.445" size="1.27" layer="21" rot="R90">1</text>
+<text x="-7.62" y="0" size="1.27" layer="21" rot="R90">2</text>
+<text x="-7.62" y="-5.08" size="1.27" layer="21" rot="R90">3</text>
+<text x="3.81" y="11.43" size="1.6764" layer="25" rot="R180">&gt;NAME</text>
+</package>
+<package name="3PDT_PADS">
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="21"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.127" layer="21"/>
+<pad name="A1" x="-3.81" y="3.81" drill="0.8" diameter="1.9304" shape="square"/>
+<pad name="B1" x="0" y="3.81" drill="0.8" diameter="1.9304" shape="square"/>
+<pad name="C1" x="3.81" y="3.81" drill="0.8" diameter="1.9304" shape="square"/>
+<pad name="A2" x="-3.81" y="0" drill="0.8" diameter="1.9304" shape="square"/>
+<pad name="B2" x="0" y="0" drill="0.8" diameter="1.9304" shape="square"/>
+<pad name="C2" x="3.81" y="0" drill="0.8" diameter="1.9304" shape="square"/>
+<pad name="A3" x="-3.81" y="-3.81" drill="0.8" diameter="1.9304" shape="square"/>
+<pad name="B3" x="0" y="-3.81" drill="0.8" diameter="1.9304" shape="square"/>
+<pad name="C3" x="3.81" y="-3.81" drill="0.8" diameter="1.9304" shape="square"/>
+<text x="-5.08" y="5.08" size="0.6096" layer="21">A</text>
+<text x="-1.27" y="5.08" size="0.6096" layer="21">B</text>
+<text x="2.54" y="5.08" size="0.6096" layer="21">C</text>
+<text x="-5.08" y="2.54" size="0.6096" layer="21" rot="R90">1</text>
+<text x="-5.08" y="-1.27" size="0.6096" layer="21" rot="R90">2</text>
+<text x="-5.08" y="-5.08" size="0.6096" layer="21" rot="R90">3</text>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="3PDT_ALT">
+<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="1.905" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.127" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.127" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.635" width="0.4064" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.635" width="0.4064" layer="94"/>
+<text x="-1.27" y="0.635" size="1.016" layer="97">2</text>
+<text x="3.175" y="1.27" size="1.016" layer="97">1</text>
+<text x="3.175" y="-1.905" size="1.016" layer="97">3</text>
+<text x="-5.715" y="2.54" size="1.4224" layer="95">&gt;NAME</text>
+<pin name="P$1" x="5.08" y="2.54" visible="off" length="point" rot="R180"/>
+<pin name="P$3" x="5.08" y="-2.54" visible="off" length="point" rot="R180"/>
+<pin name="P$2" x="-2.54" y="0" visible="off" length="point"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="3PDT" prefix="SW" uservalue="yes">
+<gates>
+<gate name="A" symbol="3PDT_ALT" x="0.635" y="0"/>
+<gate name="B" symbol="3PDT_ALT" x="0" y="-12.7"/>
+<gate name="C" symbol="3PDT_ALT" x="0" y="-25.4"/>
+</gates>
+<devices>
+<device name="" package="3PDT">
+<connects>
+<connect gate="A" pin="P$1" pad="A1"/>
+<connect gate="A" pin="P$2" pad="A2"/>
+<connect gate="A" pin="P$3" pad="A3"/>
+<connect gate="B" pin="P$1" pad="B1"/>
+<connect gate="B" pin="P$2" pad="B2"/>
+<connect gate="B" pin="P$3" pad="B3"/>
+<connect gate="C" pin="P$1" pad="C1"/>
+<connect gate="C" pin="P$2" pad="C2"/>
+<connect gate="C" pin="P$3" pad="C3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMALLPADS" package="3PDT_PADS">
+<connects>
+<connect gate="A" pin="P$1" pad="A1"/>
+<connect gate="A" pin="P$2" pad="A2"/>
+<connect gate="A" pin="P$3" pad="A3"/>
+<connect gate="B" pin="P$1" pad="B1"/>
+<connect gate="B" pin="P$2" pad="B2"/>
+<connect gate="B" pin="P$3" pad="B3"/>
+<connect gate="C" pin="P$1" pad="C1"/>
+<connect gate="C" pin="P$2" pad="C2"/>
+<connect gate="C" pin="P$3" pad="C3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -675,7 +666,6 @@ Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.</descri
 </class>
 </classes>
 <parts>
-<part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="SWITCH-3PDT" device="-PTH-STOMP" package3d_urn="urn:adsk.eagle:package:40159/1"/>
 <part name="OUT_JACK" library="Custom-Parts" deviceset="CONN_02" device="POLAR" package3d_urn="urn:adsk.eagle:package:38040/1"/>
 <part name="IN_JACK" library="Custom-Parts" deviceset="CONN_02" device="POLAR" package3d_urn="urn:adsk.eagle:package:38040/1"/>
 <part name="POWER" library="Custom-Parts" deviceset="CONN_02" device="POLAR" package3d_urn="urn:adsk.eagle:package:38040/1"/>
@@ -687,21 +677,13 @@ Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.</descri
 <part name="U$4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="AGND" device=""/>
 <part name="U$5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="AGND" device=""/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330OHM" device="-HORIZ-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="330"/>
+<part name="SW1" library="mb_3pdt" deviceset="3PDT" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="S1" gate="A" x="25.4" y="86.36" smashed="yes">
-<attribute name="NAME" x="24.13" y="89.662" size="1.778" layer="95" font="vector" align="bottom-center"/>
-</instance>
-<instance part="S1" gate="B" x="25.4" y="63.5" smashed="yes">
-<attribute name="NAME" x="24.13" y="66.802" size="1.778" layer="95" font="vector" align="bottom-center"/>
-</instance>
-<instance part="S1" gate="C" x="25.4" y="38.1" smashed="yes">
-<attribute name="NAME" x="24.13" y="41.402" size="1.778" layer="95" font="vector" align="bottom-center"/>
-</instance>
 <instance part="OUT_JACK" gate="G$1" x="7.62" y="60.96" smashed="yes">
 <attribute name="VALUE" x="5.08" y="56.134" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="5.08" y="66.548" size="1.778" layer="95" font="vector"/>
@@ -740,6 +722,15 @@ Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.</descri
 <instance part="R1" gate="G$1" x="43.18" y="35.56" smashed="yes">
 <attribute name="NAME" x="43.18" y="37.084" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="43.18" y="34.036" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="SW1" gate="A" x="22.86" y="86.36" smashed="yes">
+<attribute name="NAME" x="17.145" y="88.9" size="1.4224" layer="95"/>
+</instance>
+<instance part="SW1" gate="B" x="22.86" y="63.5" smashed="yes">
+<attribute name="NAME" x="17.145" y="66.04" size="1.4224" layer="95"/>
+</instance>
+<instance part="SW1" gate="C" x="22.86" y="38.1" smashed="yes">
+<attribute name="NAME" x="17.145" y="40.64" size="1.4224" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -780,53 +771,52 @@ Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.</descri
 <net name="N$1" class="0">
 <segment>
 <pinref part="IN_JACK" gate="G$1" pin="2"/>
-<pinref part="S1" gate="A" pin="P"/>
 <wire x1="15.24" y1="86.36" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="A" pin="P$2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="OUT_JACK" gate="G$1" pin="2"/>
-<pinref part="S1" gate="B" pin="P"/>
 <wire x1="15.24" y1="63.5" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="B" pin="P$2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="S1" gate="A" pin="O"/>
 <wire x1="27.94" y1="88.9" x2="33.02" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="88.9" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="S1" gate="B" pin="O"/>
 <wire x1="33.02" y1="66.04" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="A" pin="P$1"/>
+<pinref part="SW1" gate="B" pin="P$1"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="S1" gate="A" pin="S"/>
 <wire x1="27.94" y1="83.82" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="PCB" gate="G$1" pin="4"/>
 <wire x1="27.94" y1="73.66" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="A" pin="P$3"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="S1" gate="B" pin="S"/>
 <wire x1="27.94" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="60.96" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="PCB" gate="G$1" pin="3"/>
 <wire x1="38.1" y1="76.2" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="B" pin="P$3"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="POWER" gate="G$1" pin="2"/>
-<pinref part="S1" gate="C" pin="P"/>
 <wire x1="15.24" y1="38.1" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="C" pin="P$2"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="S1" gate="C" pin="S"/>
 <wire x1="27.94" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="35.56" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="PCB" gate="G$1" pin="2"/>
@@ -834,6 +824,7 @@ Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.</descri
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
 <junction x="35.56" y="35.56"/>
+<pinref part="SW1" gate="C" pin="P$3"/>
 </segment>
 </net>
 <net name="N$8" class="0">
