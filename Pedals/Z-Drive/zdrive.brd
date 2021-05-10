@@ -434,6 +434,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-3.37216875" y1="1.53" x2="0.83216875" y2="1.53" width="0.1" layer="21" curve="252.1"/>
 <wire x1="-3.37216875" y1="1.53" x2="0.83216875" y2="1.53" width="0.1" layer="21"/>
 </package>
+<package name="100SP1T1B4M2QE">
+<description>&lt;b&gt;100SP1T1B4M2QE&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-4.7" y="0" drill="1.85" diameter="2.775"/>
+<pad name="2" x="0" y="0" drill="1.85" diameter="2.775"/>
+<pad name="3" x="4.7" y="0" drill="1.85" diameter="2.775"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-6.35" y1="3.43" x2="6.35" y2="3.43" width="0.2" layer="51"/>
+<wire x1="6.35" y1="3.43" x2="6.35" y2="-3.43" width="0.2" layer="51"/>
+<wire x1="6.35" y1="-3.43" x2="-6.35" y2="-3.43" width="0.2" layer="51"/>
+<wire x1="-6.35" y1="-3.43" x2="-6.35" y2="3.43" width="0.2" layer="51"/>
+<wire x1="-6.35" y1="3.43" x2="6.35" y2="3.43" width="0.1" layer="21"/>
+<wire x1="6.35" y1="3.43" x2="6.35" y2="-3.43" width="0.1" layer="21"/>
+<wire x1="6.35" y1="-3.43" x2="-6.35" y2="-3.43" width="0.1" layer="21"/>
+<wire x1="-6.35" y1="-3.43" x2="-6.35" y2="3.43" width="0.1" layer="21"/>
+<wire x1="-7.35" y1="4.43" x2="7.35" y2="4.43" width="0.1" layer="51"/>
+<wire x1="7.35" y1="4.43" x2="7.35" y2="-4.43" width="0.1" layer="51"/>
+<wire x1="7.35" y1="-4.43" x2="-7.35" y2="-4.43" width="0.1" layer="51"/>
+<wire x1="-7.35" y1="-4.43" x2="-7.35" y2="4.43" width="0.1" layer="51"/>
+<wire x1="-6.9" y1="0" x2="-6.9" y2="0" width="0.2" layer="21"/>
+<wire x1="-6.9" y1="0" x2="-6.9" y2="-0.2" width="0.2" layer="21" curve="-180"/>
+<wire x1="-6.9" y1="-0.2" x2="-6.9" y2="-0.2" width="0.2" layer="21"/>
+<wire x1="-6.9" y1="-0.2" x2="-6.9" y2="0" width="0.2" layer="21" curve="-180"/>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
@@ -536,47 +561,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.</description>
 <packageinstances>
 <packageinstance name="AXIAL-0.3"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
-<library name="SparkFun-Switches" urn="urn:adsk.eagle:library:535">
-<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
-In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SWITCH_SPDT_PTH_11.6X4.0MM" urn="urn:adsk.eagle:footprint:40121/1" library_version="1">
-<description>&lt;h3&gt;SPDT PTH Slide Switch&lt;/h3&gt;
-&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
-<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
-<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
-<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="2.54" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="0" y="-2.54" drill="1.016" diameter="1.8796"/>
-<text x="-2.413" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
-<text x="2.413" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="SWITCH_SPDT_PTH_11.6X4.0MM" urn="urn:adsk.eagle:package:40177/1" type="box" library_version="1">
-<description>SPDT PTH Slide Switch
-Single-pole, double-throw (SPDT) switch.
-Dimensional Drawing</description>
-<packageinstances>
-<packageinstance name="SWITCH_SPDT_PTH_11.6X4.0MM"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -803,9 +787,9 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-08439" x="77.47" y="-24.13" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="43.18" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C8" library="Custom-Parts" package="CAP-PTH-SMALL-KIT" value="1NF" x="36.195" y="46.355" smashed="yes" rot="R90">
-<attribute name="NAME" x="34.671" y="44.577" size="0.6096" layer="25" rot="R90"/>
-<attribute name="VALUE" x="38.227" y="44.577" size="0.6096" layer="25" rot="R90"/>
+<element name="C8" library="Custom-Parts" package="CAP-PTH-SMALL-KIT" value="1NF" x="35.56" y="48.895" smashed="yes" rot="R90">
+<attribute name="NAME" x="34.036" y="47.117" size="0.6096" layer="25" rot="R90"/>
+<attribute name="VALUE" x="37.592" y="47.117" size="0.6096" layer="25" rot="R90"/>
 </element>
 <element name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="DIODE-1N4001-KIT" package3d_urn="urn:adsk.eagle:package:38455/1" value="BAT41" x="6.35" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="4.826" y="35.56" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -910,12 +894,6 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="RES-08380" x="95.25" y="85.09" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="41.656" y="36.83" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="SWITCH_SPDT_PTH_11.6X4.0MM" package3d_urn="urn:adsk.eagle:package:40177/1" value="" x="27.94" y="47.625" smashed="yes" rot="R180">
-<attribute name="NAME" x="30.353" y="47.625" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="SWCH-08261" x="12.7" y="53.975" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SF_SKU" value="COM-00102" x="12.7" y="53.975" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="25.527" y="47.625" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
-</element>
 <element name="TONE" library="Custom-Parts" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="B50k" x="29.845" y="15.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.655" y="17.145" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="8" x="26.035" y="-30.48" size="1.778" layer="27" rot="R270" display="off"/>
@@ -930,6 +908,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="31.75" y="34.925" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="8" x="13.335" y="-6.35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="20.955" y="35.56" size="1.27" layer="25" rot="R270"/>
+</element>
+<element name="S1" library="SamacSys_Parts" package="100SP1T1B4M2QE" value="100SP1T1B2M2QE" x="27.94" y="46.99" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Toggle Switches 5A 120VAC/28VDC On-None-On PC Mnt" x="27.94" y="46.99" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="28mm" x="27.94" y="46.99" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="E-Switch" x="27.94" y="46.99" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="100SP1T1B2M2QE" x="27.94" y="46.99" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="612-100SP1T1B2M2QE" x="27.94" y="46.99" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/E-Switch/100SP1T1B2M2QE?qs=f57gQzlyLipVPLzNFzaEDQ%3D%3D" x="27.94" y="46.99" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="29.845" y="48.895" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 </elements>
 <signals>
@@ -1032,8 +1019,6 @@ design rules under a new name.</description>
 <wire x1="17.1356625" y1="38.02" x2="26.035" y2="38.02" width="0.6096" layer="1"/>
 <wire x1="12.7" y1="38.1" x2="12.827" y2="37.973" width="0.6096" layer="1"/>
 <wire x1="12.827" y1="37.973" x2="17.0886625" y2="37.973" width="0.6096" layer="1"/>
-<wire x1="26.035" y1="38.02" x2="28.655" y2="40.64" width="0.6096" layer="16"/>
-<wire x1="28.655" y1="40.64" x2="41.91" y2="40.64" width="0.6096" layer="16"/>
 <wire x1="48.133" y1="32.4413375" x2="48.26" y2="32.3143375" width="0.6096" layer="16"/>
 <wire x1="48.26" y1="32.3143375" x2="48.26" y2="29.337" width="0.6096" layer="16"/>
 <wire x1="45.72" y1="40.64" x2="48.133" y2="38.227" width="0.6096" layer="16"/>
@@ -1042,6 +1027,9 @@ design rules under a new name.</description>
 <wire x1="46.99" y1="25.729575" x2="46.99" y2="20.32" width="0.6096" layer="16"/>
 <wire x1="48.26" y1="29.337" x2="46.7868" y2="27.8638" width="0.6096" layer="16"/>
 <wire x1="46.7868" y1="27.8638" x2="46.7868" y2="25.932775" width="0.6096" layer="16"/>
+<wire x1="26.035" y1="38.02" x2="28.02" y2="40.005" width="0.6096" layer="1"/>
+<wire x1="41.275" y1="40.005" x2="41.91" y2="40.64" width="0.6096" layer="1"/>
+<wire x1="28.02" y1="40.005" x2="41.275" y2="40.005" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R3" pad="P$2"/>
@@ -1099,7 +1087,6 @@ design rules under a new name.</description>
 <contactref element="R7" pad="P$1"/>
 <contactref element="C7" pad="1"/>
 <contactref element="R2" pad="P$2"/>
-<contactref element="S1" pad="2"/>
 <wire x1="2.54" y1="29.21" x2="2.54" y2="26.67" width="0.6096" layer="1"/>
 <wire x1="4.2672" y1="9.89516875" x2="12.76536875" y2="1.397" width="0.6096" layer="16"/>
 <wire x1="44.45" y1="1.397" x2="44.45" y2="5.06" width="0.6096" layer="16"/>
@@ -1111,8 +1098,9 @@ design rules under a new name.</description>
 <wire x1="2.54" y1="32.150475" x2="2.54" y2="29.21" width="0.6096" layer="16"/>
 <wire x1="2.54" y1="26.67" x2="4.2672" y2="24.9428" width="0.6096" layer="16"/>
 <wire x1="4.2672" y1="24.9428" x2="4.2672" y2="9.89516875" width="0.6096" layer="16"/>
-<wire x1="24.765" y1="44.45" x2="27.94" y2="47.625" width="0.6096" layer="1"/>
-<wire x1="15.24" y1="44.45" x2="24.765" y2="44.45" width="0.6096" layer="1"/>
+<contactref element="S1" pad="2"/>
+<wire x1="15.24" y1="44.45" x2="25.4" y2="44.45" width="0.6096" layer="1"/>
+<wire x1="25.4" y1="44.45" x2="27.94" y2="46.99" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R5" pad="P$1"/>
@@ -1130,8 +1118,9 @@ design rules under a new name.</description>
 <wire x1="20.955" y1="47.498" x2="20.932790625" y2="42.5451" width="0.6096" layer="16"/>
 <wire x1="20.932790625" y1="42.5451" x2="20.83366875" y2="20.44133125" width="0.6096" layer="16"/>
 <wire x1="20.83366875" y1="20.44133125" x2="26.035" y2="15.24" width="0.6096" layer="16"/>
-<wire x1="20.932790625" y1="42.5451" x2="30.9881" y2="42.5451" width="0.6096" layer="16"/>
-<wire x1="30.9881" y1="42.5451" x2="36.195" y2="47.752" width="0.6096" layer="16"/>
+<wire x1="20.955" y1="47.498" x2="22.987" y2="49.53" width="0.6096" layer="16"/>
+<wire x1="34.798" y1="49.53" x2="35.56" y2="50.292" width="0.6096" layer="16"/>
+<wire x1="22.987" y1="49.53" x2="34.798" y2="49.53" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$8">
 <contactref element="D1" pad="C"/>
@@ -1207,16 +1196,16 @@ design rules under a new name.</description>
 <wire x1="3.81" y1="5.08" x2="3.81" y2="2.54" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$11">
-<contactref element="S1" pad="3"/>
 <contactref element="C4" pad="1"/>
-<wire x1="20.955" y1="50.292" x2="27.813" y2="50.292" width="0.6096" layer="1"/>
-<wire x1="27.813" y1="50.292" x2="27.94" y2="50.165" width="0.6096" layer="1"/>
+<contactref element="S1" pad="1"/>
+<wire x1="20.955" y1="50.292" x2="22.353" y2="51.69" width="0.6096" layer="1"/>
+<wire x1="22.353" y1="51.69" x2="27.94" y2="51.69" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$12">
-<contactref element="S1" pad="1"/>
 <contactref element="C8" pad="1"/>
-<wire x1="27.94" y1="45.085" x2="36.068" y2="45.085" width="0.6096" layer="1"/>
-<wire x1="36.068" y1="45.085" x2="36.195" y2="44.958" width="0.6096" layer="1"/>
+<contactref element="S1" pad="3"/>
+<wire x1="35.56" y1="47.498" x2="30.352" y2="42.29" width="0.6096" layer="1"/>
+<wire x1="30.352" y1="42.29" x2="27.94" y2="42.29" width="0.6096" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
