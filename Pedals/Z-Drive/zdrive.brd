@@ -894,15 +894,15 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="RES-08380" x="95.25" y="85.09" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="41.656" y="36.83" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="TONE" library="Custom-Parts" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="B50k" x="29.845" y="15.24" smashed="yes" rot="MR270">
-<attribute name="NAME" x="35.56" y="17.145" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="8" x="33.655" y="-30.48" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="36.195" y="12.7" size="1.27" layer="26" rot="MR90"/>
+<element name="TONE" library="Custom-Parts" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="B50k" x="29.845" y="15.24" smashed="yes" rot="MR90">
+<attribute name="NAME" x="31.75" y="12.7" size="1.27" layer="26" rot="MR90"/>
+<attribute name="POPULARITY" value="8" x="26.035" y="60.96" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="34.925" y="17.145" size="1.27" layer="26" rot="MR270"/>
 </element>
-<element name="VOICE" library="Custom-Parts" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="B10k" x="26.035" y="15.24" smashed="yes" rot="MR90">
-<attribute name="NAME" x="20.955" y="12.065" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="8" x="9.525" y="36.83" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="19.05" y="12.7" size="1.27" layer="26" rot="MR90"/>
+<element name="VOICE" library="Custom-Parts" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="B10k" x="26.035" y="15.24" smashed="yes" rot="MR270">
+<attribute name="NAME" x="24.13" y="17.78" size="1.27" layer="26" rot="MR270"/>
+<attribute name="POPULARITY" value="8" x="42.545" y="-6.35" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="22.225" y="17.145" size="1.27" layer="26" rot="MR270"/>
 </element>
 <element name="VOL" library="Custom-Parts" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="B100k" x="29.845" y="33.02" smashed="yes" rot="MR90">
 <attribute name="NAME" x="31.75" y="31.115" size="1.27" layer="26" rot="MR90"/>
@@ -957,6 +957,26 @@ design rules under a new name.</description>
 <wire x1="17.145" y1="41.91" x2="19.05" y2="40.005" width="0.6096" layer="16"/>
 <wire x1="33.2994" y1="34.5656" x2="29.845" y2="38.02" width="0.6096" layer="16"/>
 <wire x1="33.2994" y1="9.5982125" x2="33.2994" y2="34.5656" width="0.6096" layer="16"/>
+<polygon width="0.254" layer="16">
+<vertex x="0" y="0"/>
+<vertex x="0" y="44.45"/>
+<vertex x="10.16" y="44.45"/>
+<vertex x="10.16" y="54.61"/>
+<vertex x="45.72" y="54.61"/>
+<vertex x="45.72" y="44.45"/>
+<vertex x="55.88" y="44.45"/>
+<vertex x="55.88" y="0"/>
+</polygon>
+<polygon width="0.254" layer="1">
+<vertex x="0" y="0"/>
+<vertex x="0" y="44.45"/>
+<vertex x="10.16" y="44.45"/>
+<vertex x="10.16" y="54.61"/>
+<vertex x="45.72" y="54.61"/>
+<vertex x="45.72" y="44.45"/>
+<vertex x="55.88" y="44.45"/>
+<vertex x="55.88" y="0"/>
+</polygon>
 </signal>
 <signal name="IN">
 <contactref element="R1" pad="P$2"/>
@@ -1036,23 +1056,25 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="R3" pad="P$2"/>
 <contactref element="TONE" pad="1"/>
-<wire x1="42.545" y1="29.845" x2="39.45" y2="29.845" width="0.6096" layer="1"/>
-<wire x1="42.545" y1="29.845" x2="45.72" y2="33.02" width="0.6096" layer="1"/>
-<wire x1="39.45" y1="29.845" x2="29.845" y2="20.24" width="0.6096" layer="1"/>
+<wire x1="29.845" y1="10.24" x2="33.575" y2="13.97" width="0.6096" layer="1"/>
+<wire x1="33.575" y1="13.97" x2="42.545" y2="13.97" width="0.6096" layer="1"/>
+<via x="42.545" y="13.97" extent="1-16" drill="0.6"/>
+<wire x1="42.545" y1="13.97" x2="42.545" y2="29.845" width="0.6096" layer="16"/>
+<wire x1="42.545" y1="29.845" x2="45.72" y2="33.02" width="0.6096" layer="16"/>
 </signal>
 <signal name="OP5">
 <contactref element="C2" pad="1"/>
 <contactref element="TONE" pad="3"/>
 <contactref element="TONE" pad="2"/>
 <contactref element="IC1" pad="5"/>
-<wire x1="29.845" y1="15.24" x2="29.845" y2="10.24" width="0.6096" layer="16"/>
-<wire x1="14.097" y1="6.35" x2="16.3068" y2="8.5598" width="0.6096" layer="16"/>
+<wire x1="29.845" y1="15.24" x2="29.845" y2="20.24" width="0.6096" layer="16"/>
 <wire x1="14.097" y1="6.35" x2="10.16" y2="10.287" width="0.6096" layer="16"/>
 <wire x1="10.16" y1="10.287" x2="10.16" y2="15.24" width="0.6096" layer="16"/>
 <wire x1="10.16" y1="15.24" x2="6.35" y2="15.24" width="0.6096" layer="16"/>
 <wire x1="6.35" y1="15.24" x2="6.35" y2="17.62" width="0.6096" layer="16"/>
-<wire x1="16.3068" y1="8.5598" x2="28.1648" y2="8.5598" width="0.6096" layer="16"/>
-<wire x1="28.1648" y1="8.5598" x2="29.845" y2="10.24" width="0.6096" layer="16"/>
+<wire x1="14.097" y1="6.35" x2="20.447" y2="12.7" width="0.6096" layer="1"/>
+<wire x1="20.447" y1="12.7" x2="27.305" y2="12.7" width="0.6096" layer="1"/>
+<wire x1="27.305" y1="12.7" x2="29.845" y2="15.24" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="IC1" pad="7"/>
@@ -1112,22 +1134,26 @@ design rules under a new name.</description>
 <contactref element="R5" pad="P$1"/>
 <contactref element="VOICE" pad="3"/>
 <wire x1="16.51" y1="31.75" x2="22.824003125" y2="25.435996875" width="0.6096" layer="1"/>
-<wire x1="22.824003125" y1="25.435996875" x2="22.824003125" y2="23.450996875" width="0.6096" layer="1"/>
-<wire x1="22.824003125" y1="23.450996875" x2="26.035" y2="20.24" width="0.6096" layer="1"/>
+<wire x1="22.824003125" y1="19.085996875" x2="22.86" y2="19.05" width="0.6096" layer="1"/>
+<wire x1="22.824003125" y1="25.435996875" x2="22.824003125" y2="19.085996875" width="0.6096" layer="1"/>
+<via x="22.86" y="19.05" extent="1-16" drill="0.6"/>
+<wire x1="22.86" y1="13.415" x2="26.035" y2="10.24" width="0.6096" layer="16"/>
+<wire x1="22.86" y1="19.05" x2="22.86" y2="13.415" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$7">
 <contactref element="VOICE" pad="1"/>
 <contactref element="VOICE" pad="2"/>
 <contactref element="C8" pad="2"/>
 <contactref element="C4" pad="2"/>
-<wire x1="26.035" y1="15.24" x2="26.035" y2="10.24" width="0.6096" layer="16"/>
+<wire x1="26.035" y1="15.24" x2="26.035" y2="20.24" width="0.6096" layer="16"/>
 <wire x1="20.955" y1="47.498" x2="20.932790625" y2="42.5451" width="0.6096" layer="16"/>
 <wire x1="20.932790625" y1="42.5451" x2="20.83366875" y2="20.44133125" width="0.6096" layer="16"/>
-<wire x1="20.83366875" y1="20.44133125" x2="26.035" y2="15.24" width="0.6096" layer="16"/>
 <wire x1="28.7041" y1="49.8453" x2="29.1508" y2="50.292" width="0.6096" layer="16"/>
 <wire x1="29.1508" y1="50.292" x2="34.925" y2="50.292" width="0.6096" layer="16"/>
 <wire x1="23.3023" y1="49.8453" x2="28.7041" y2="49.8453" width="0.6096" layer="16"/>
 <wire x1="20.955" y1="47.498" x2="23.3023" y2="49.8453" width="0.6096" layer="16"/>
+<wire x1="20.83366875" y1="20.44133125" x2="21.035" y2="20.24" width="0.6096" layer="16"/>
+<wire x1="21.035" y1="20.24" x2="26.035" y2="20.24" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$8">
 <contactref element="D1" pad="C"/>
