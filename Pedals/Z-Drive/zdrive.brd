@@ -153,10 +153,11 @@
 <wire x1="0" y1="0" x2="55.88" y2="0" width="0.1524" layer="20"/>
 <wire x1="55.88" y1="0" x2="55.88" y2="44.45" width="0.1524" layer="20"/>
 <wire x1="45.72" y1="54.61" x2="10.16" y2="54.61" width="0.1524" layer="20"/>
-<text x="22.86" y="46.99" size="0.6096" layer="25" rot="R90">0.1NF</text>
 <text x="19.05" y="46.355" size="0.6096" layer="25" rot="R90">C4</text>
 <text x="48.26" y="3.81" size="0.6096" layer="25" ratio="20">GND</text>
 <text x="1.905" y="3.81" size="0.6096" layer="25" ratio="20">9V</text>
+<text x="3.175" y="8.89" size="0.8128" layer="27" rot="R90">IN4007</text>
+<text x="19.05" y="49.53" size="0.8128" layer="27" rot="R90">1uF</text>
 </plain>
 <libraries>
 <library name="Custom-Parts">
@@ -809,7 +810,6 @@ design rules under a new name.</description>
 <element name="D5" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="DIODE-1N4001-KIT" package3d_urn="urn:adsk.eagle:package:38455/1" value="BAT41" x="2.54" y="11.43" smashed="yes" rot="R90">
 <attribute name="NAME" x="1.016" y="11.43" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-09176" x="46.99" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="2.159" y="11.43" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="GAIN" library="Custom-Parts" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="B500k" x="26.035" y="33.02" smashed="yes" rot="MR270">
 <attribute name="NAME" x="24.13" y="34.925" size="1.27" layer="26" rot="MR270"/>
