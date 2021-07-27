@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -156,10 +156,16 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
-<wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
-<wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="8.89" x2="0" y2="48.26" width="0.0762" layer="20"/>
+<wire x1="11.43" y1="57.15" x2="66.04" y2="57.15" width="0.0762" layer="20"/>
+<wire x1="66.04" y1="57.15" x2="66.04" y2="0" width="0.0762" layer="20"/>
+<wire x1="66.04" y1="0" x2="11.43" y2="0" width="0.0762" layer="20"/>
+<wire x1="0" y1="48.26" x2="7.62" y2="48.26" width="0.0762" layer="20"/>
+<wire x1="7.62" y1="48.26" x2="7.62" y2="53.34" width="0.0762" layer="20"/>
+<wire x1="7.62" y1="53.34" x2="11.43" y2="57.15" width="0.0762" layer="20"/>
+<wire x1="0" y1="8.89" x2="7.62" y2="8.89" width="0.0762" layer="20"/>
+<wire x1="7.62" y1="8.89" x2="7.62" y2="3.81" width="0.0762" layer="20"/>
+<wire x1="7.62" y1="3.81" x2="11.43" y2="0" width="0.0762" layer="20"/>
 </plain>
 <libraries>
 <library name="SamacSys_Parts">
@@ -442,116 +448,143 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="DIGILENT" library="SamacSys_Parts" package="SQT-115-01-XXX-D-RA" value="SQT-115-01-F-D-RA" x="50.8" y="62.23" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="30 Position, Cost Effective Rugged PCB Sockets, 2.00mm pitch, RA ver." x="-54.61" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="mm" x="-54.61" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="SAMTEC" x="-54.61" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SQT-115-01-F-D-RA" x="-54.61" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-54.61" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-54.61" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="50.8" y="62.23" size="1.27" layer="25" rot="R270" align="center"/>
-<attribute name="VALUE" x="50.8" y="62.23" size="1.27" layer="27" rot="R270" align="center"/>
+<element name="DIGILENT" library="SamacSys_Parts" package="SQT-115-01-XXX-D-RA" value="SQT-115-01-F-D-RA" x="2.54" y="15.24" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="30 Position, Cost Effective Rugged PCB Sockets, 2.00mm pitch, RA ver." x="-102.87" y="-6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-102.87" y="-6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="SAMTEC" x="-102.87" y="-6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SQT-115-01-F-D-RA" x="-102.87" y="-6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-102.87" y="-6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-102.87" y="-6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="7.62" y="16.51" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="VALUE" x="7.62" y="38.1" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="SCOPE_1" library="SamacSys_Parts" package="NYS2152" value="NYS2152" x="113.03" y="29.21" smashed="yes">
-<attribute name="DESCRIPTION" value="Phone Connectors 1/4&quot; MONO SWITCHED WITH CHROME NUT REAN" x="154.94" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="15.85mm" x="154.94" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Neutrik" x="154.94" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="NYS2152" x="154.94" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="568-NYS215/2" x="154.94" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/REAN/NYS2152?qs=jCymNF74TgWZcUJoC7KZ1g%3D%3D" x="154.94" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="124.23" y="36.86" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="124.23" y="36.86" size="1.27" layer="27" align="center"/>
+<element name="SCOPE_1" library="SamacSys_Parts" package="NYS2152" value="NYS2152" x="59.69" y="38.1" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Phone Connectors 1/4&quot; MONO SWITCHED WITH CHROME NUT REAN" x="64.77" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="15.85mm" x="64.77" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Neutrik" x="64.77" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NYS2152" x="64.77" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="568-NYS215/2" x="64.77" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/REAN/NYS2152?qs=jCymNF74TgWZcUJoC7KZ1g%3D%3D" x="64.77" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="44.68" y="30.45" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="VALUE" x="51.03" y="43.15" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="SCOPE_2" library="SamacSys_Parts" package="NYS2152" value="NYS2152" x="11.43" y="30.48" smashed="yes">
-<attribute name="DESCRIPTION" value="Phone Connectors 1/4&quot; MONO SWITCHED WITH CHROME NUT REAN" x="53.34" y="1.27" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="15.85mm" x="53.34" y="1.27" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Neutrik" x="53.34" y="1.27" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="NYS2152" x="53.34" y="1.27" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="568-NYS215/2" x="53.34" y="1.27" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/REAN/NYS2152?qs=jCymNF74TgWZcUJoC7KZ1g%3D%3D" x="53.34" y="1.27" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="22.63" y="38.13" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="22.63" y="38.13" size="1.27" layer="27" align="center"/>
+<element name="SCOPE_2" library="SamacSys_Parts" package="NYS2152" value="NYS2152" x="16.51" y="19.05" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Phone Connectors 1/4&quot; MONO SWITCHED WITH CHROME NUT REAN" x="-12.7" y="-22.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="15.85mm" x="-12.7" y="-22.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Neutrik" x="-12.7" y="-22.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NYS2152" x="-12.7" y="-22.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="568-NYS215/2" x="-12.7" y="-22.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/REAN/NYS2152?qs=jCymNF74TgWZcUJoC7KZ1g%3D%3D" x="-12.7" y="-22.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="31.52" y="26.7" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="25.17" y="12.73" size="1.27" layer="27" align="center"/>
 </element>
-<element name="WAVE_1" library="SamacSys_Parts" package="NYS2152" value="NYS2152" x="64.77" y="26.67" smashed="yes">
-<attribute name="DESCRIPTION" value="Phone Connectors 1/4&quot; MONO SWITCHED WITH CHROME NUT REAN" x="106.68" y="-26.67" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="15.85mm" x="106.68" y="-26.67" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Neutrik" x="106.68" y="-26.67" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="NYS2152" x="106.68" y="-26.67" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="568-NYS215/2" x="106.68" y="-26.67" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/REAN/NYS2152?qs=jCymNF74TgWZcUJoC7KZ1g%3D%3D" x="106.68" y="-26.67" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="75.97" y="34.32" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="75.97" y="34.32" size="1.27" layer="27" align="center"/>
+<element name="WAVE_1" library="SamacSys_Parts" package="NYS2152" value="NYS2152" x="31.75" y="38.1" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Phone Connectors 1/4&quot; MONO SWITCHED WITH CHROME NUT REAN" x="85.09" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="15.85mm" x="85.09" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Neutrik" x="85.09" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NYS2152" x="85.09" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="568-NYS215/2" x="85.09" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/REAN/NYS2152?qs=jCymNF74TgWZcUJoC7KZ1g%3D%3D" x="85.09" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="18.01" y="30.45" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="VALUE" x="23.09" y="43.15" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="WAVE_2" library="SamacSys_Parts" package="NYS2152" value="NYS2152" x="102.87" y="72.39" smashed="yes">
-<attribute name="DESCRIPTION" value="Phone Connectors 1/4&quot; MONO SWITCHED WITH CHROME NUT REAN" x="144.78" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="15.85mm" x="144.78" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Neutrik" x="144.78" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="NYS2152" x="144.78" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="568-NYS215/2" x="144.78" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/REAN/NYS2152?qs=jCymNF74TgWZcUJoC7KZ1g%3D%3D" x="144.78" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="114.07" y="80.04" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="114.07" y="80.04" size="1.27" layer="27" align="center"/>
+<element name="WAVE_2" library="SamacSys_Parts" package="NYS2152" value="NYS2152" x="44.45" y="19.05" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Phone Connectors 1/4&quot; MONO SWITCHED WITH CHROME NUT REAN" x="-33.02" y="-22.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="15.85mm" x="-33.02" y="-22.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Neutrik" x="-33.02" y="-22.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NYS2152" x="-33.02" y="-22.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="568-NYS215/2" x="-33.02" y="-22.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/REAN/NYS2152?qs=jCymNF74TgWZcUJoC7KZ1g%3D%3D" x="-33.02" y="-22.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="60.73" y="26.7" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="53.11" y="12.73" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
-<signal name="N$1">
-<contactref element="DIGILENT" pad="2"/>
-<contactref element="SCOPE_1" pad="1"/>
-<contactref element="SCOPE_1" pad="2"/>
-<wire x1="113.03" y1="29.21" x2="113.03" y2="45.71" width="0" layer="19" extent="1-1"/>
-<wire x1="52.8" y1="62.23" x2="113.03" y2="45.71" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$2">
-<contactref element="DIGILENT" pad="4"/>
-<contactref element="SCOPE_2" pad="1"/>
-<contactref element="SCOPE_2" pad="2"/>
-<wire x1="11.43" y1="46.98" x2="52.8" y2="64.23" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="30.48" x2="11.43" y2="46.98" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$3">
-<contactref element="DIGILENT" pad="1"/>
-<contactref element="SCOPE_1" pad="4"/>
-<contactref element="SCOPE_1" pad="3"/>
-<wire x1="125.73" y1="29.21" x2="125.73" y2="45.71" width="0" layer="19" extent="1-1"/>
-<wire x1="50.8" y1="62.23" x2="125.73" y2="45.71" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$4">
-<contactref element="DIGILENT" pad="3"/>
-<contactref element="SCOPE_2" pad="4"/>
-<contactref element="SCOPE_2" pad="3"/>
-<wire x1="24.13" y1="46.98" x2="50.8" y2="64.23" width="0" layer="19" extent="1-1"/>
-<wire x1="24.13" y1="30.48" x2="24.13" y2="46.98" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="AGND">
 <contactref element="DIGILENT" pad="6"/>
 <contactref element="DIGILENT" pad="5"/>
-<contactref element="WAVE_2" pad="2"/>
-<contactref element="WAVE_2" pad="1"/>
-<contactref element="WAVE_1" pad="3"/>
-<contactref element="WAVE_1" pad="4"/>
 <contactref element="DIGILENT" pad="11"/>
 <contactref element="DIGILENT" pad="12"/>
-<wire x1="102.87" y1="72.39" x2="102.87" y2="88.89" width="0" layer="19" extent="1-1"/>
-<wire x1="77.47" y1="43.17" x2="102.87" y2="72.39" width="0" layer="19" extent="1-1"/>
-<wire x1="77.47" y1="26.67" x2="77.47" y2="43.17" width="0" layer="19" extent="1-1"/>
-<wire x1="52.8" y1="66.23" x2="77.47" y2="43.17" width="0" layer="19" extent="1-1"/>
-<wire x1="50.8" y1="66.23" x2="52.8" y2="66.23" width="0" layer="19" extent="1-1"/>
-<wire x1="50.8" y1="72.23" x2="50.8" y2="66.23" width="0" layer="19" extent="1-1"/>
-<wire x1="52.8" y1="72.23" x2="50.8" y2="72.23" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$5">
-<contactref element="DIGILENT" pad="9"/>
+<contactref element="WAVE_1" pad="3"/>
+<contactref element="WAVE_1" pad="4"/>
 <contactref element="WAVE_2" pad="3"/>
 <contactref element="WAVE_2" pad="4"/>
-<wire x1="115.57" y1="72.39" x2="115.57" y2="88.89" width="0" layer="19" extent="1-1"/>
-<wire x1="50.8" y1="70.23" x2="115.57" y2="72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="25.24" x2="4.54" y2="25.24" width="0.6096" layer="16"/>
+<wire x1="2.54" y1="19.24" x2="4.54" y2="19.24" width="0.6096" layer="16"/>
+<wire x1="4.54" y1="25.24" x2="5.24" y2="25.24" width="0.6096" layer="16"/>
+<wire x1="5.24" y1="25.24" x2="6.35" y2="24.13" width="0.6096" layer="16"/>
+<wire x1="6.35" y1="24.13" x2="6.35" y2="20.32" width="0.6096" layer="16"/>
+<wire x1="6.35" y1="20.32" x2="5.27" y2="19.24" width="0.6096" layer="16"/>
+<wire x1="5.27" y1="19.24" x2="4.54" y2="19.24" width="0.6096" layer="16"/>
+<wire x1="4.54" y1="25.24" x2="11.43" y2="32.13" width="0.6096" layer="16"/>
+<wire x1="11.43" y1="32.13" x2="11.43" y2="50.8" width="0.6096" layer="16"/>
+<wire x1="11.43" y1="50.8" x2="15.25" y2="50.8" width="0.6096" layer="16"/>
+<wire x1="15.25" y1="50.8" x2="31.75" y2="50.8" width="0.6096" layer="16"/>
+<wire x1="4.54" y1="19.24" x2="9.97" y2="19.24" width="0.6096" layer="16"/>
+<wire x1="19.05" y1="10.16" x2="44.45" y2="10.16" width="0.6096" layer="16"/>
+<wire x1="44.45" y1="10.16" x2="44.45" y2="6.35" width="0.6096" layer="16"/>
+<wire x1="9.97" y1="19.24" x2="19.05" y2="10.16" width="0.6096" layer="16"/>
+<wire x1="44.45" y1="6.35" x2="60.95" y2="6.35" width="0.6096" layer="16"/>
 </signal>
-<signal name="N$7">
+<signal name="SC1_N">
+<contactref element="DIGILENT" pad="1"/>
+<contactref element="SCOPE_1" pad="3"/>
+<contactref element="SCOPE_1" pad="4"/>
+<wire x1="2.54" y1="15.24" x2="5.08" y2="12.7" width="0.6096" layer="1"/>
+<wire x1="5.08" y1="12.7" x2="36.83" y2="12.7" width="0.6096" layer="1"/>
+<via x="36.83" y="12.7" extent="1-16" drill="0.6"/>
+<wire x1="36.83" y1="12.7" x2="36.83" y2="50.8" width="0.6096" layer="16"/>
+<wire x1="36.83" y1="50.8" x2="43.19" y2="50.8" width="0.6096" layer="16"/>
+<wire x1="43.19" y1="50.8" x2="59.69" y2="50.8" width="0.6096" layer="16"/>
+</signal>
+<signal name="SC2_N">
+<contactref element="DIGILENT" pad="3"/>
+<contactref element="SCOPE_2" pad="3"/>
+<contactref element="SCOPE_2" pad="4"/>
+<wire x1="16.51" y1="6.35" x2="33.01" y2="6.35" width="0.6096" layer="1"/>
+<wire x1="2.5908" y1="11.43" x2="16.51" y2="11.43" width="0.6096" layer="1"/>
+<wire x1="16.51" y1="11.43" x2="16.51" y2="6.35" width="0.6096" layer="1"/>
+<wire x1="2.54" y1="17.24" x2="1.3081" y2="16.0081" width="0.508" layer="1"/>
+<wire x1="1.3081" y1="16.0081" x2="1.3081" y2="11.43" width="0.508" layer="1"/>
+<wire x1="1.3081" y1="11.43" x2="2.5908" y2="11.43" width="0.508" layer="1"/>
+</signal>
+<signal name="SC2_P">
+<contactref element="DIGILENT" pad="4"/>
+<contactref element="SCOPE_2" pad="2"/>
+<contactref element="SCOPE_2" pad="1"/>
+<wire x1="4.54" y1="17.24" x2="14.7" y2="17.24" width="0.6096" layer="1"/>
+<wire x1="14.7" y1="17.24" x2="16.51" y2="19.05" width="0.6096" layer="1"/>
+<wire x1="16.51" y1="19.05" x2="33.01" y2="19.05" width="0.6096" layer="1"/>
+</signal>
+<signal name="SC1_P">
+<contactref element="DIGILENT" pad="2"/>
+<contactref element="SCOPE_1" pad="2"/>
+<contactref element="SCOPE_1" pad="1"/>
+<wire x1="4.54" y1="15.24" x2="39.37" y2="15.24" width="0.6096" layer="1"/>
+<via x="39.37" y="15.24" extent="1-16" drill="0.6"/>
+<wire x1="39.37" y1="15.24" x2="39.37" y2="38.1" width="0.6096" layer="16"/>
+<wire x1="39.37" y1="38.1" x2="43.19" y2="38.1" width="0.6096" layer="16"/>
+<wire x1="43.19" y1="38.1" x2="59.69" y2="38.1" width="0.6096" layer="16"/>
+</signal>
+<signal name="WV_1">
 <contactref element="DIGILENT" pad="10"/>
 <contactref element="WAVE_1" pad="2"/>
 <contactref element="WAVE_1" pad="1"/>
-<wire x1="64.77" y1="43.17" x2="52.8" y2="70.23" width="0" layer="19" extent="1-1"/>
-<wire x1="64.77" y1="26.67" x2="64.77" y2="43.17" width="0" layer="19" extent="1-1"/>
+<wire x1="4.54" y1="23.24" x2="15.24" y2="33.94" width="0.6096" layer="1"/>
+<wire x1="15.24" y1="38.09" x2="15.25" y2="38.1" width="0.6096" layer="1"/>
+<wire x1="15.24" y1="33.94" x2="15.24" y2="38.09" width="0.6096" layer="1"/>
+<wire x1="15.25" y1="38.1" x2="31.75" y2="38.1" width="0.6096" layer="1"/>
+</signal>
+<signal name="WV_2">
+<contactref element="DIGILENT" pad="9"/>
+<contactref element="WAVE_2" pad="2"/>
+<contactref element="WAVE_2" pad="1"/>
+<wire x1="38.1" y1="45.72" x2="38.1" y2="19.05" width="0.6096" layer="1"/>
+<wire x1="38.1" y1="19.05" x2="44.45" y2="19.05" width="0.6096" layer="1"/>
+<wire x1="44.45" y1="19.05" x2="60.95" y2="19.05" width="0.6096" layer="1"/>
+<wire x1="2.54" y1="23.24" x2="1.3081" y2="24.4719" width="0.508" layer="1"/>
+<wire x1="1.3081" y1="24.4719" x2="1.3081" y2="45.72" width="0.508" layer="1"/>
+<wire x1="1.3081" y1="45.72" x2="38.1" y2="45.72" width="0.508" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
