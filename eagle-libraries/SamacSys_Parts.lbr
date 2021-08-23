@@ -60,6 +60,36 @@
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
+<package name="A6FR3101">
+<description>&lt;b&gt;A6FR-3101-3&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0.000" y="0.000" drill="1" diameter="1.500" />
+<pad name="2" x="2.540" y="0.000" drill="1" diameter="1.500" />
+<pad name="3" x="5.080" y="0.000" drill="1" diameter="1.500" />
+<pad name="4" x="5.080" y="7.620" drill="1" diameter="1.500" />
+<pad name="5" x="2.540" y="7.620" drill="1" diameter="1.500" />
+<pad name="6" x="0.000" y="7.620" drill="1" diameter="1.500" />
+<text x="2.540" y="2.980" align="center" size="1.27" layer="25" rot="R0">&gt;NAME</text>
+<text x="2.540" y="2.980" align="center" size="1.27" layer="27" rot="R0">&gt;VALUE</text>
+<wire x1="-2.05" y1="-1.14" x2="7.13" y2="-1.14" width="0.2" layer="51" />
+<wire x1="7.13" y1="-1.14" x2="7.13" y2="8.76" width="0.2" layer="51" />
+<wire x1="7.13" y1="8.76" x2="-2.05" y2="8.76" width="0.2" layer="51" />
+<wire x1="-2.05" y1="8.76" x2="-2.05" y2="-1.14" width="0.2" layer="51" />
+<wire x1="-2.05" y1="-1.14" x2="7.13" y2="-1.14" width="0.1" layer="21" />
+<wire x1="7.13" y1="-1.14" x2="7.13" y2="8.76" width="0.1" layer="21" />
+<wire x1="7.13" y1="8.76" x2="-2.05" y2="8.76" width="0.1" layer="21" />
+<wire x1="-2.05" y1="8.76" x2="-2.05" y2="-1.14" width="0.1" layer="21" />
+<wire x1="-3.05" y1="9.76" x2="8.13" y2="9.76" width="0.1" layer="51" />
+<wire x1="8.13" y1="9.76" x2="8.13" y2="-3.8" width="0.1" layer="51" />
+<wire x1="8.13" y1="-3.8" x2="-3.05" y2="-3.8" width="0.1" layer="51" />
+<wire x1="-3.05" y1="-3.8" x2="-3.05" y2="9.76" width="0.1" layer="51" />
+<wire x1="0" y1="-2.8" x2="0" y2="-2.8" width="0.2" layer="21" />
+<wire x1="0.000" y1="-2.800" x2="0.000" y2="-2.700" width="0.2" layer="21" curve="180.0" />
+<wire x1="0" y1="-2.7" x2="0" y2="-2.7" width="0.2" layer="21" />
+<wire x1="0.000" y1="-2.700" x2="0.000" y2="-2.800" width="0.2" layer="21" curve="180.0" />
+<wire x1="0" y1="-2.8" x2="0" y2="-2.8" width="0.2" layer="21" />
+<wire x1="0.000" y1="-2.800" x2="0.000" y2="-2.700" width="0.2" layer="21" curve="180.0" />
+</package>
 <package name="RHDRRA30W64P254_2X15_3861X851X">
 <description>&lt;b&gt;SSQ-115-02-T-D-RA&lt;/b&gt;&lt;br&gt;
 </description>
@@ -306,6 +336,20 @@
 </package>
 </packages>
 <symbols>
+<symbol name="A6FR-3101">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94" />
+<wire x1="25.4" y1="-7.62" x2="25.4" y2="2.54" width="0.254" layer="94" />
+<wire x1="25.4" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94" />
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94" />
+<text x="26.67" y="7.62" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="26.67" y="5.08" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="COM_1" x="0" y="0" length="middle" direction="io" rot="R0" />
+<pin name="COM_2" x="0" y="-2.54" length="middle" direction="io" rot="R0" />
+<pin name="COM_3" x="0" y="-5.08" length="middle" direction="io" rot="R0" />
+<pin name="NO_1" x="30.48" y="-5.08" length="middle" direction="io" rot="R180" />
+<pin name="NO_2" x="30.48" y="-2.54" length="middle" direction="io" rot="R180" />
+<pin name="NO_3" x="30.48" y="0" length="middle" direction="io" rot="R180" />
+</symbol>
 <symbol name="SSQ-115-02-T-D-RA">
 <wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94" />
 <wire x1="17.78" y1="-38.1" x2="17.78" y2="2.54" width="0.254" layer="94" />
@@ -469,6 +513,35 @@
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="A6FR-3101" prefix="S">
+<description>&lt;b&gt;DIP Switches / SIP Switches 3 Pole Short Actuator (white)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/A6FR-3101.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="A6FR-3101" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="A6FR3101">
+<connects>
+<connect gate="G$1" pin="COM_1" pad="1" />
+<connect gate="G$1" pin="COM_2" pad="2" />
+<connect gate="G$1" pin="COM_3" pad="3" />
+<connect gate="G$1" pin="NO_1" pad="4" />
+<connect gate="G$1" pin="NO_2" pad="5" />
+<connect gate="G$1" pin="NO_3" pad="6" />
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Mouser_Part_Number" value="653-A6FR-3101" constant="no" />
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/Omron-Electronics/A6FR-3101?qs=fAHHVMwC%252BbiRkaDbzgIyjA%3D%3D" constant="no" />
+<attribute name="Manufacturer_Name" value="Omron Electronics" constant="no" />
+<attribute name="Manufacturer_Part_Number" value="A6FR-3101" constant="no" />
+<attribute name="Description" value="DIP Switches / SIP Switches 3 Pole Short Actuator (white)" constant="no" />
+<attribute name="Height" value="10.2mm" constant="no" />
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="SSQ-115-02-T-D-RA" prefix="J">
 <description>&lt;b&gt;CONN RECEPTACLE, 2.54MM, R/A DUAL 30WAY&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://suddendocs.samtec.com/catalog_english/ssq_th.pdf"&gt; Datasheet &lt;/a&gt;</description>
