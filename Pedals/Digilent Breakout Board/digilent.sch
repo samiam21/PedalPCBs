@@ -160,54 +160,6 @@
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SQT-115-01-XXX-D-RA">
-<description>&lt;b&gt;SQT-115-01-XXX-D-RA&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="0.99" diameter="1.5"/>
-<pad name="2" x="0" y="2" drill="0.99" diameter="1.5"/>
-<pad name="3" x="-2" y="0" drill="0.99" diameter="1.5"/>
-<pad name="4" x="-2" y="2" drill="0.99" diameter="1.5"/>
-<pad name="5" x="-4" y="0" drill="0.99" diameter="1.5"/>
-<pad name="6" x="-4" y="2" drill="0.99" diameter="1.5"/>
-<pad name="7" x="-6" y="0" drill="0.99" diameter="1.5"/>
-<pad name="8" x="-6" y="2" drill="0.99" diameter="1.5"/>
-<pad name="9" x="-8" y="0" drill="0.99" diameter="1.5"/>
-<pad name="10" x="-8" y="2" drill="0.99" diameter="1.5"/>
-<pad name="11" x="-10" y="0" drill="0.99" diameter="1.5"/>
-<pad name="12" x="-10" y="2" drill="0.99" diameter="1.5"/>
-<pad name="13" x="-12" y="0" drill="0.99" diameter="1.5"/>
-<pad name="14" x="-12" y="2" drill="0.99" diameter="1.5"/>
-<pad name="15" x="-14" y="0" drill="0.99" diameter="1.5"/>
-<pad name="16" x="-14" y="2" drill="0.99" diameter="1.5"/>
-<pad name="17" x="-16" y="0" drill="0.99" diameter="1.5"/>
-<pad name="18" x="-16" y="2" drill="0.99" diameter="1.5"/>
-<pad name="19" x="-18" y="0" drill="0.99" diameter="1.5"/>
-<pad name="20" x="-18" y="2" drill="0.99" diameter="1.5"/>
-<pad name="21" x="-20" y="0" drill="0.99" diameter="1.5"/>
-<pad name="22" x="-20" y="2" drill="0.99" diameter="1.5"/>
-<pad name="23" x="-22" y="0" drill="0.99" diameter="1.5"/>
-<pad name="24" x="-22" y="2" drill="0.99" diameter="1.5"/>
-<pad name="25" x="-24" y="0" drill="0.99" diameter="1.5"/>
-<pad name="26" x="-24" y="2" drill="0.99" diameter="1.5"/>
-<pad name="27" x="-26" y="0" drill="0.99" diameter="1.5"/>
-<pad name="28" x="-26" y="2" drill="0.99" diameter="1.5"/>
-<pad name="29" x="-28" y="0" drill="0.99" diameter="1.5"/>
-<pad name="30" x="-28" y="2" drill="0.99" diameter="1.5"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-29.15" y1="-0.9" x2="1.15" y2="-0.9" width="0.2" layer="51"/>
-<wire x1="1.15" y1="-0.9" x2="1.15" y2="-6.615" width="0.2" layer="51"/>
-<wire x1="1.15" y1="-6.615" x2="-29.15" y2="-6.615" width="0.2" layer="51"/>
-<wire x1="-29.15" y1="-6.615" x2="-29.15" y2="-0.9" width="0.2" layer="51"/>
-<wire x1="1.15" y1="-0.9" x2="1.15" y2="-6.615" width="0.1" layer="21"/>
-<wire x1="1.15" y1="-6.615" x2="-29.15" y2="-6.615" width="0.1" layer="21"/>
-<wire x1="-29.15" y1="-6.615" x2="-29.15" y2="-0.9" width="0.1" layer="21"/>
-<circle x="1.15" y="0" radius="0.05" width="0.2" layer="25"/>
-<wire x1="-30.35" y1="3.75" x2="2.35" y2="3.75" width="0.05" layer="51"/>
-<wire x1="2.35" y1="3.75" x2="2.35" y2="-7.815" width="0.05" layer="51"/>
-<wire x1="2.35" y1="-7.815" x2="-30.35" y2="-7.815" width="0.05" layer="51"/>
-<wire x1="-30.35" y1="-7.815" x2="-30.35" y2="3.75" width="0.05" layer="51"/>
-</package>
 <package name="NYS2152">
 <description>&lt;b&gt;NYS2152-2&lt;/b&gt;&lt;br&gt;
 </description>
@@ -241,46 +193,55 @@
 <wire x1="-0.8" y1="-2.95" x2="-0.8" y2="-2.95" width="0.2" layer="21"/>
 <wire x1="-0.8" y1="-2.95" x2="-0.8" y2="-2.75" width="0.2" layer="21" curve="180"/>
 </package>
+<package name="RHDRRA30W64P254_2X15_3861X851X">
+<description>&lt;b&gt;SSQ-115-02-T-D-RA&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square"/>
+<pad name="2" x="0" y="2.54" drill="1.1" diameter="1.65"/>
+<pad name="3" x="-2.54" y="0" drill="1.1" diameter="1.65"/>
+<pad name="4" x="-2.54" y="2.54" drill="1.1" diameter="1.65"/>
+<pad name="5" x="-5.08" y="0" drill="1.1" diameter="1.65"/>
+<pad name="6" x="-5.08" y="2.54" drill="1.1" diameter="1.65"/>
+<pad name="7" x="-7.62" y="0" drill="1.1" diameter="1.65"/>
+<pad name="8" x="-7.62" y="2.54" drill="1.1" diameter="1.65"/>
+<pad name="9" x="-10.16" y="0" drill="1.1" diameter="1.65"/>
+<pad name="10" x="-10.16" y="2.54" drill="1.1" diameter="1.65"/>
+<pad name="11" x="-12.7" y="0" drill="1.1" diameter="1.65"/>
+<pad name="12" x="-12.7" y="2.54" drill="1.1" diameter="1.65"/>
+<pad name="13" x="-15.24" y="0" drill="1.1" diameter="1.65"/>
+<pad name="14" x="-15.24" y="2.54" drill="1.1" diameter="1.65"/>
+<pad name="15" x="-17.78" y="0" drill="1.1" diameter="1.65"/>
+<pad name="16" x="-17.78" y="2.54" drill="1.1" diameter="1.65"/>
+<pad name="17" x="-20.32" y="0" drill="1.1" diameter="1.65"/>
+<pad name="18" x="-20.32" y="2.54" drill="1.1" diameter="1.65"/>
+<pad name="19" x="-22.86" y="0" drill="1.1" diameter="1.65"/>
+<pad name="20" x="-22.86" y="2.54" drill="1.1" diameter="1.65"/>
+<pad name="21" x="-25.4" y="0" drill="1.1" diameter="1.65"/>
+<pad name="22" x="-25.4" y="2.54" drill="1.1" diameter="1.65"/>
+<pad name="23" x="-27.94" y="0" drill="1.1" diameter="1.65"/>
+<pad name="24" x="-27.94" y="2.54" drill="1.1" diameter="1.65"/>
+<pad name="25" x="-30.48" y="0" drill="1.1" diameter="1.65"/>
+<pad name="26" x="-30.48" y="2.54" drill="1.1" diameter="1.65"/>
+<pad name="27" x="-33.02" y="0" drill="1.1" diameter="1.65"/>
+<pad name="28" x="-33.02" y="2.54" drill="1.1" diameter="1.65"/>
+<pad name="29" x="-35.56" y="0" drill="1.1" diameter="1.65"/>
+<pad name="30" x="-35.56" y="2.54" drill="1.1" diameter="1.65"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="1.775" y1="-1.325" x2="-37.335" y2="-1.325" width="0.05" layer="51"/>
+<wire x1="-37.335" y1="-1.325" x2="-37.335" y2="12.82" width="0.05" layer="51"/>
+<wire x1="-37.335" y1="12.82" x2="1.775" y2="12.82" width="0.05" layer="51"/>
+<wire x1="1.775" y1="12.82" x2="1.775" y2="-1.325" width="0.05" layer="51"/>
+<wire x1="1.525" y1="4.06" x2="-37.085" y2="4.06" width="0.1" layer="51"/>
+<wire x1="-37.085" y1="4.06" x2="-37.085" y2="12.57" width="0.1" layer="51"/>
+<wire x1="-37.085" y1="12.57" x2="1.525" y2="12.57" width="0.1" layer="51"/>
+<wire x1="1.525" y1="12.57" x2="1.525" y2="4.06" width="0.1" layer="51"/>
+<wire x1="1.525" y1="0" x2="1.525" y2="12.57" width="0.2" layer="21"/>
+<wire x1="1.525" y1="12.57" x2="-37.085" y2="12.57" width="0.2" layer="21"/>
+<wire x1="-37.085" y1="12.57" x2="-37.085" y2="4.06" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
-<symbol name="SQT-115-01-F-D-RA">
-<wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-38.1" x2="17.78" y2="2.54" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-38.1" x2="5.08" y2="-38.1" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-38.1" width="0.254" layer="94"/>
-<text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="-35.56" length="middle"/>
-<pin name="2" x="22.86" y="-35.56" length="middle" rot="R180"/>
-<pin name="3" x="0" y="-33.02" length="middle"/>
-<pin name="4" x="22.86" y="-33.02" length="middle" rot="R180"/>
-<pin name="5" x="0" y="-30.48" length="middle"/>
-<pin name="6" x="22.86" y="-30.48" length="middle" rot="R180"/>
-<pin name="7" x="0" y="-27.94" length="middle"/>
-<pin name="8" x="22.86" y="-27.94" length="middle" rot="R180"/>
-<pin name="9" x="0" y="-25.4" length="middle"/>
-<pin name="10" x="22.86" y="-25.4" length="middle" rot="R180"/>
-<pin name="11" x="0" y="-22.86" length="middle"/>
-<pin name="12" x="22.86" y="-22.86" length="middle" rot="R180"/>
-<pin name="13" x="0" y="-20.32" length="middle"/>
-<pin name="14" x="22.86" y="-20.32" length="middle" rot="R180"/>
-<pin name="15" x="0" y="-17.78" length="middle"/>
-<pin name="16" x="22.86" y="-17.78" length="middle" rot="R180"/>
-<pin name="17" x="0" y="-15.24" length="middle"/>
-<pin name="18" x="22.86" y="-15.24" length="middle" rot="R180"/>
-<pin name="19" x="0" y="-12.7" length="middle"/>
-<pin name="20" x="22.86" y="-12.7" length="middle" rot="R180"/>
-<pin name="21" x="0" y="-10.16" length="middle"/>
-<pin name="22" x="22.86" y="-10.16" length="middle" rot="R180"/>
-<pin name="23" x="0" y="-7.62" length="middle"/>
-<pin name="24" x="22.86" y="-7.62" length="middle" rot="R180"/>
-<pin name="25" x="0" y="-5.08" length="middle"/>
-<pin name="26" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="27" x="0" y="-2.54" length="middle"/>
-<pin name="28" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="29" x="0" y="0" length="middle"/>
-<pin name="30" x="22.86" y="0" length="middle" rot="R180"/>
-</symbol>
 <symbol name="NYS2152">
 <wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
@@ -293,16 +254,81 @@
 <pin name="3" x="20.32" y="0" length="middle" rot="R180"/>
 <pin name="4" x="20.32" y="-2.54" length="middle" rot="R180"/>
 </symbol>
+<symbol name="SSQ-115-02-T-D-RA">
+<wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-38.1" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-38.1" x2="5.08" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-38.1" width="0.254" layer="94"/>
+<text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="3" x="0" y="-2.54" length="middle"/>
+<pin name="5" x="0" y="-5.08" length="middle"/>
+<pin name="7" x="0" y="-7.62" length="middle"/>
+<pin name="9" x="0" y="-10.16" length="middle"/>
+<pin name="11" x="0" y="-12.7" length="middle"/>
+<pin name="13" x="0" y="-15.24" length="middle"/>
+<pin name="15" x="0" y="-17.78" length="middle"/>
+<pin name="17" x="0" y="-20.32" length="middle"/>
+<pin name="19" x="0" y="-22.86" length="middle"/>
+<pin name="21" x="0" y="-25.4" length="middle"/>
+<pin name="23" x="0" y="-27.94" length="middle"/>
+<pin name="25" x="0" y="-30.48" length="middle"/>
+<pin name="27" x="0" y="-33.02" length="middle"/>
+<pin name="29" x="0" y="-35.56" length="middle"/>
+<pin name="2" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="4" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="6" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="8" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="10" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="12" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="14" x="22.86" y="-15.24" length="middle" rot="R180"/>
+<pin name="16" x="22.86" y="-17.78" length="middle" rot="R180"/>
+<pin name="18" x="22.86" y="-20.32" length="middle" rot="R180"/>
+<pin name="20" x="22.86" y="-22.86" length="middle" rot="R180"/>
+<pin name="22" x="22.86" y="-25.4" length="middle" rot="R180"/>
+<pin name="24" x="22.86" y="-27.94" length="middle" rot="R180"/>
+<pin name="26" x="22.86" y="-30.48" length="middle" rot="R180"/>
+<pin name="28" x="22.86" y="-33.02" length="middle" rot="R180"/>
+<pin name="30" x="22.86" y="-35.56" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="SQT-115-01-F-D-RA" prefix="J">
-<description>&lt;b&gt;30 Position, Cost Effective Rugged PCB Sockets, 2.00mm pitch, RA ver.&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://suddendocs.samtec.com/prints/sqt-1xx-xx-xxx-x-xxx-xxx-mkt.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="NYS2152" prefix="J">
+<description>&lt;b&gt;Phone Connectors 1/4" MONO SWITCHED WITH CHROME NUT REAN&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="SQT-115-01-F-D-RA" x="0" y="0"/>
+<gate name="G$1" symbol="NYS2152" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SQT-115-01-XXX-D-RA">
+<device name="" package="NYS2152">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Phone Connectors 1/4&quot; MONO SWITCHED WITH CHROME NUT REAN" constant="no"/>
+<attribute name="HEIGHT" value="15.85mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Neutrik" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NYS2152" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="568-NYS215/2" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/REAN/NYS2152?qs=jCymNF74TgWZcUJoC7KZ1g%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SSQ-115-02-T-D-RA" prefix="J">
+<description>&lt;b&gt;CONN RECEPTACLE, 2.54MM, R/A DUAL 30WAY&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://suddendocs.samtec.com/catalog_english/ssq_th.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SSQ-115-02-T-D-RA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RHDRRA30W64P254_2X15_3861X851X">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -337,39 +363,12 @@ Source: &lt;a href="http://suddendocs.samtec.com/prints/sqt-1xx-xx-xxx-x-xxx-xxx
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="30 Position, Cost Effective Rugged PCB Sockets, 2.00mm pitch, RA ver." constant="no"/>
-<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="DESCRIPTION" value="CONN RECEPTACLE, 2.54MM, R/A DUAL 30WAY" constant="no"/>
+<attribute name="HEIGHT" value="4.95mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="SAMTEC" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SQT-115-01-F-D-RA" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="NYS2152" prefix="J">
-<description>&lt;b&gt;Phone Connectors 1/4" MONO SWITCHED WITH CHROME NUT REAN&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="NYS2152" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="NYS2152">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Phone Connectors 1/4&quot; MONO SWITCHED WITH CHROME NUT REAN" constant="no"/>
-<attribute name="HEIGHT" value="15.85mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Neutrik" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="NYS2152" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="568-NYS215/2" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/REAN/NYS2152?qs=jCymNF74TgWZcUJoC7KZ1g%3D%3D" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSQ-115-02-T-D-RA" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="200-SSQ11502TDRA" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Samtec/SSQ-115-02-T-D-RA?qs=rU5fayqh%252BE2UN30xyNQdAQ%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -428,7 +427,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="DIGILENT" library="SamacSys_Parts" deviceset="SQT-115-01-F-D-RA" device=""/>
 <part name="SCOPE_1" library="SamacSys_Parts" deviceset="NYS2152" device=""/>
 <part name="SCOPE_2" library="SamacSys_Parts" deviceset="NYS2152" device=""/>
 <part name="WAVE_1" library="SamacSys_Parts" deviceset="NYS2152" device=""/>
@@ -437,16 +435,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="AGND" device=""/>
 <part name="U$3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="AGND" device=""/>
 <part name="U$4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="AGND" device=""/>
+<part name="DIGILENT" library="SamacSys_Parts" deviceset="SSQ-115-02-T-D-RA" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="DIGILENT" gate="G$1" x="58.42" y="68.58" smashed="yes">
-<attribute name="NAME" x="64.77" y="76.2" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="59.69" y="73.66" size="1.778" layer="96" align="center-left"/>
-</instance>
 <instance part="SCOPE_1" gate="G$1" x="20.32" y="50.8" smashed="yes">
 <attribute name="NAME" x="21.59" y="40.64" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="21.59" y="43.18" size="1.778" layer="96" align="center-left"/>
@@ -475,30 +470,34 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$4" gate="G$1" x="45.72" y="58.42" smashed="yes">
 <attribute name="VALUE" x="45.72" y="58.166" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="DIGILENT" gate="G$1" x="58.42" y="68.58" smashed="yes">
+<attribute name="NAME" x="59.69" y="76.2" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="59.69" y="73.66" size="1.778" layer="96" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="AGND" class="0">
 <segment>
-<pinref part="DIGILENT" gate="G$1" pin="6"/>
 <wire x1="81.28" y1="38.1" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="38.1" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="AGND"/>
-<pinref part="DIGILENT" gate="G$1" pin="12"/>
 <wire x1="81.28" y1="45.72" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="45.72" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
 <junction x="99.06" y="38.1"/>
+<pinref part="DIGILENT" gate="G$1" pin="20"/>
+<pinref part="DIGILENT" gate="G$1" pin="26"/>
 </segment>
 <segment>
-<pinref part="DIGILENT" gate="G$1" pin="5"/>
 <wire x1="58.42" y1="38.1" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="AGND"/>
 <wire x1="43.18" y1="38.1" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="DIGILENT" gate="G$1" pin="11"/>
 <wire x1="58.42" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="45.72" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
 <junction x="43.18" y="38.1"/>
+<pinref part="DIGILENT" gate="G$1" pin="19"/>
+<pinref part="DIGILENT" gate="G$1" pin="25"/>
 </segment>
 <segment>
 <pinref part="WAVE_1" gate="G$1" pin="3"/>
@@ -523,9 +522,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="SC1_N" class="0">
 <segment>
-<pinref part="DIGILENT" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="33.02" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
 <label x="48.26" y="33.02" size="1.778" layer="95"/>
+<pinref part="DIGILENT" gate="G$1" pin="29"/>
 </segment>
 <segment>
 <pinref part="SCOPE_1" gate="G$1" pin="3"/>
@@ -540,9 +539,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="SC2_N" class="0">
 <segment>
-<pinref part="DIGILENT" gate="G$1" pin="3"/>
 <wire x1="58.42" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
 <label x="48.26" y="35.56" size="1.778" layer="95"/>
+<pinref part="DIGILENT" gate="G$1" pin="27"/>
 </segment>
 <segment>
 <pinref part="SCOPE_2" gate="G$1" pin="3"/>
@@ -557,9 +556,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="SC2_P" class="0">
 <segment>
-<pinref part="DIGILENT" gate="G$1" pin="4"/>
 <wire x1="81.28" y1="35.56" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
 <label x="83.82" y="35.56" size="1.778" layer="95"/>
+<pinref part="DIGILENT" gate="G$1" pin="28"/>
 </segment>
 <segment>
 <pinref part="SCOPE_2" gate="G$1" pin="2"/>
@@ -574,9 +573,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="SC1_P" class="0">
 <segment>
-<pinref part="DIGILENT" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="33.02" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
 <label x="83.82" y="33.02" size="1.778" layer="95"/>
+<pinref part="DIGILENT" gate="G$1" pin="30"/>
 </segment>
 <segment>
 <pinref part="SCOPE_1" gate="G$1" pin="2"/>
@@ -591,9 +590,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="WV_1" class="0">
 <segment>
-<pinref part="DIGILENT" gate="G$1" pin="10"/>
 <wire x1="81.28" y1="43.18" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
 <label x="83.82" y="43.18" size="1.778" layer="95"/>
+<pinref part="DIGILENT" gate="G$1" pin="22"/>
 </segment>
 <segment>
 <pinref part="WAVE_1" gate="G$1" pin="2"/>
@@ -608,9 +607,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="WV_2" class="0">
 <segment>
-<pinref part="DIGILENT" gate="G$1" pin="9"/>
 <wire x1="58.42" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
 <label x="48.26" y="43.18" size="1.778" layer="95"/>
+<pinref part="DIGILENT" gate="G$1" pin="21"/>
 </segment>
 <segment>
 <pinref part="WAVE_2" gate="G$1" pin="2"/>
