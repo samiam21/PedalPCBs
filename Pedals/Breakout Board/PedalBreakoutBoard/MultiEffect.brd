@@ -2713,10 +2713,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.78" y="82.423" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="17.78" y="85.852" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
+<element name="C8" library="Custom-Parts" package="CAP-PTH-SMALL-KIT" value="10UF" x="39.37" y="69.85" smashed="yes" rot="R90">
+<attribute name="NAME" x="37.846" y="68.072" size="0.6096" layer="25" rot="R90"/>
+<attribute name="VALUE" x="41.402" y="68.072" size="0.6096" layer="27" rot="R90"/>
+</element>
+<element name="C13" library="Custom-Parts" package="CAP-PTH-SMALL-KIT" value="0.1UF" x="44.45" y="67.31" smashed="yes">
+<attribute name="NAME" x="42.672" y="68.834" size="0.6096" layer="25"/>
+<attribute name="VALUE" x="42.672" y="65.278" size="0.6096" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="SEED" pad="40"/>
 <contactref element="PWR" pad="1"/>
 <contactref element="IC1" pad="1"/>
 <contactref element="PS1" pad="1"/>
@@ -2742,8 +2749,6 @@ design rules under a new name.</description>
 <wire x1="51.943" y1="75.057" x2="50.8" y2="75.057" width="0.6096" layer="16"/>
 <contactref element="C1" pad="2"/>
 <wire x1="43.18" y1="75.057" x2="46.99" y2="75.057" width="0.6096" layer="1"/>
-<wire x1="35.687" y1="77.47" x2="35.814" y2="77.597" width="0.6096" layer="1"/>
-<wire x1="35.814" y1="77.597" x2="40.64" y2="77.597" width="0.6096" layer="1"/>
 <wire x1="40.64" y1="77.597" x2="43.18" y2="75.057" width="0.6096" layer="1"/>
 <contactref element="C6" pad="2"/>
 <wire x1="50.8" y1="52.197" x2="52.197" y2="50.8" width="0.6096" layer="1"/>
@@ -2818,8 +2823,6 @@ design rules under a new name.</description>
 <contactref element="EXT_GND" pad="2"/>
 <contactref element="EXT_GND" pad="3"/>
 <contactref element="EXT_GND" pad="4"/>
-<wire x1="35.687" y1="77.47" x2="35.687" y2="81.407" width="0.6096" layer="1"/>
-<wire x1="35.687" y1="81.407" x2="38.1" y2="83.82" width="0.6096" layer="1"/>
 <wire x1="38.1" y1="83.82" x2="40.64" y2="83.82" width="0.6096" layer="1"/>
 <wire x1="40.64" y1="83.82" x2="43.18" y2="83.82" width="0.6096" layer="1"/>
 <wire x1="43.18" y1="83.82" x2="45.72" y2="83.82" width="0.6096" layer="1"/>
@@ -2836,6 +2839,19 @@ design rules under a new name.</description>
 <wire x1="19.5933" y1="27.7622" x2="19.4155" y2="27.94" width="0.6096" layer="1"/>
 <wire x1="19.4155" y1="27.94" x2="17.78" y2="27.94" width="0.6096" layer="1"/>
 <wire x1="17.78" y1="27.94" x2="17.78" y2="41.91" width="0.6096" layer="1"/>
+<contactref element="SEED" pad="40"/>
+<contactref element="C8" pad="1"/>
+<contactref element="C13" pad="2"/>
+<wire x1="35.687" y1="77.47" x2="35.814" y2="77.597" width="0.6096" layer="1"/>
+<wire x1="35.814" y1="77.597" x2="40.64" y2="77.597" width="0.6096" layer="1"/>
+<wire x1="40.64" y1="83.82" x2="40.64" y2="77.597" width="0.6096" layer="1"/>
+<wire x1="45.847" y1="67.31" x2="48.387" y2="64.77" width="0.6096" layer="1"/>
+<wire x1="48.387" y1="64.77" x2="49.53" y2="64.77" width="0.6096" layer="1"/>
+<wire x1="43.6842625" y1="68.834" x2="42.4217375" y2="68.834" width="0.6096" layer="16"/>
+<wire x1="45.847" y1="67.31" x2="45.2082625" y2="67.31" width="0.6096" layer="16"/>
+<wire x1="45.2082625" y1="67.31" x2="43.6842625" y2="68.834" width="0.6096" layer="16"/>
+<wire x1="42.4217375" y1="68.834" x2="42.0407375" y2="68.453" width="0.6096" layer="16"/>
+<wire x1="42.0407375" y1="68.453" x2="39.37" y2="68.453" width="0.6096" layer="16"/>
 </signal>
 <signal name="SPST1">
 <contactref element="SEED" pad="1"/>
@@ -3159,15 +3175,20 @@ design rules under a new name.</description>
 <wire x1="11.43" y1="57.15" x2="12.7" y2="57.15" width="0.6096" layer="16"/>
 <wire x1="12.7" y1="57.15" x2="3.81" y2="48.26" width="0.6096" layer="16"/>
 <wire x1="3.81" y1="48.26" x2="3.81" y2="46.99" width="0.6096" layer="16"/>
-<wire x1="35.687" y1="72.39" x2="40.767" y2="67.31" width="0.6096" layer="16"/>
-<wire x1="40.767" y1="67.31" x2="45.72" y2="67.31" width="0.6096" layer="16"/>
-<wire x1="45.72" y1="67.31" x2="45.72" y2="57.15" width="0.6096" layer="16"/>
 <wire x1="45.72" y1="57.15" x2="45.72" y2="54.61" width="0.6096" layer="16"/>
 <wire x1="45.72" y1="54.61" x2="45.72" y2="52.07" width="0.6096" layer="16"/>
 <wire x1="45.72" y1="52.07" x2="45.72" y2="49.53" width="0.6096" layer="16"/>
 <wire x1="45.72" y1="49.53" x2="45.72" y2="46.99" width="0.6096" layer="16"/>
 <wire x1="45.72" y1="54.61" x2="46.99" y2="55.88" width="0.6096" layer="16"/>
 <wire x1="46.99" y1="55.88" x2="49.53" y2="55.88" width="0.6096" layer="16"/>
+<contactref element="C8" pad="2"/>
+<contactref element="C13" pad="1"/>
+<wire x1="35.687" y1="72.39" x2="38.227" y2="72.39" width="0.6096" layer="1"/>
+<wire x1="38.227" y1="72.39" x2="39.37" y2="71.247" width="0.6096" layer="1"/>
+<wire x1="39.37" y1="71.247" x2="43.053" y2="67.564" width="0.6096" layer="1"/>
+<wire x1="43.053" y1="67.564" x2="43.053" y2="67.31" width="0.6096" layer="1"/>
+<wire x1="43.053" y1="67.31" x2="45.72" y2="64.643" width="0.6096" layer="16"/>
+<wire x1="45.72" y1="64.643" x2="45.72" y2="57.15" width="0.6096" layer="16"/>
 </signal>
 <signal name="SCL">
 <contactref element="SEED" pad="9"/>

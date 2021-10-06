@@ -9640,6 +9640,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="AGND" device=""/>
 <part name="U$11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="AGND" device=""/>
 <part name="U$12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="AGND" device=""/>
+<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="C8" library="Custom-Parts" deviceset="10UF" device=""/>
+<part name="C13" library="Custom-Parts" deviceset="0.1UF" device=""/>
+<part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9655,8 +9659,8 @@ and providing isolated 5V power to the audio components</text>
 <attribute name="NAME" x="78.74" y="119.38" size="1.778" layer="94"/>
 <attribute name="VALUE" x="129.54" y="60.96" size="1.778" layer="94" rot="R180"/>
 </instance>
-<instance part="SUPPLY2" gate="GND" x="157.48" y="111.76" smashed="yes">
-<attribute name="VALUE" x="155.575" y="108.585" size="1.778" layer="96"/>
+<instance part="SUPPLY2" gate="GND" x="162.56" y="121.92" smashed="yes">
+<attribute name="VALUE" x="160.655" y="118.745" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY9" gate="GND" x="22.86" y="0" smashed="yes" grouprefs="POWER">
 <attribute name="VALUE" x="20.955" y="-3.175" size="1.778" layer="96"/>
@@ -9738,25 +9742,25 @@ and providing isolated 5V power to the audio components</text>
 <attribute name="NAME" x="166.116" y="162.56" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="169.164" y="162.56" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="U1" gate="A" x="210.82" y="93.98" smashed="yes" grouprefs="AUDIO_OUTPUT">
-<attribute name="NAME" x="239.1156" y="95.4786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="233.4006" y="82.7786" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<instance part="U1" gate="A" x="231.14" y="91.44" smashed="yes" grouprefs="AUDIO_OUTPUT">
+<attribute name="NAME" x="259.4356" y="92.9386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="253.7206" y="80.2386" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="R7" gate="G$1" x="195.58" y="96.52" smashed="yes" rot="R90" grouprefs="AUDIO_OUTPUT">
-<attribute name="NAME" x="194.056" y="96.52" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="197.104" y="96.52" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R7" gate="G$1" x="215.9" y="93.98" smashed="yes" rot="R90" grouprefs="AUDIO_OUTPUT">
+<attribute name="NAME" x="214.376" y="93.98" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="217.424" y="93.98" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R8" gate="G$1" x="195.58" y="81.28" smashed="yes" rot="R90" grouprefs="AUDIO_OUTPUT">
-<attribute name="NAME" x="194.056" y="81.28" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="197.104" y="81.28" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R8" gate="G$1" x="215.9" y="78.74" smashed="yes" rot="R90" grouprefs="AUDIO_OUTPUT">
+<attribute name="NAME" x="214.376" y="78.74" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="217.424" y="78.74" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R9" gate="G$1" x="213.36" y="106.68" smashed="yes" grouprefs="AUDIO_OUTPUT">
-<attribute name="NAME" x="213.36" y="108.204" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="213.36" y="105.156" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="R9" gate="G$1" x="233.68" y="104.14" smashed="yes" grouprefs="AUDIO_OUTPUT">
+<attribute name="NAME" x="233.68" y="105.664" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="233.68" y="102.616" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="R10" gate="G$1" x="246.38" y="109.22" smashed="yes" rot="R180" grouprefs="AUDIO_OUTPUT">
-<attribute name="NAME" x="246.38" y="107.696" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="246.38" y="110.744" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="R10" gate="G$1" x="266.7" y="106.68" smashed="yes" rot="R180" grouprefs="AUDIO_OUTPUT">
+<attribute name="NAME" x="266.7" y="105.156" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="266.7" y="108.204" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="AUD_PIN" gate="G$1" x="12.7" y="147.32" smashed="yes" grouprefs="AUDIO_JACKS">
 <attribute name="VALUE" x="10.16" y="142.494" size="1.778" layer="96" font="vector"/>
@@ -9770,13 +9774,13 @@ and providing isolated 5V power to the audio components</text>
 <attribute name="NAME" x="174.879" y="171.704" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="179.959" y="171.704" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="C10" gate="G$1" x="226.06" y="106.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="223.139" y="108.204" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="228.219" y="108.204" size="1.778" layer="96" font="vector" rot="R90"/>
+<instance part="C10" gate="G$1" x="246.38" y="104.14" smashed="yes" rot="R90" grouprefs="AUDIO_OUTPUT">
+<attribute name="NAME" x="243.459" y="105.664" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="248.539" y="105.664" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="C12" gate="G$1" x="190.5" y="88.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="187.579" y="90.424" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="192.659" y="90.424" size="1.778" layer="96" font="vector" rot="R90"/>
+<instance part="C12" gate="G$1" x="210.82" y="86.36" smashed="yes" rot="R90" grouprefs="AUDIO_OUTPUT">
+<attribute name="NAME" x="207.899" y="87.884" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="212.979" y="87.884" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="C11" gate="G$1" x="121.92" y="2.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="120.396" y="-0.381" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -9834,17 +9838,31 @@ and providing isolated 5V power to the audio components</text>
 <instance part="U$8" gate="G$1" x="-7.62" y="142.24" smashed="yes" grouprefs="AUDIO_JACKS">
 <attribute name="VALUE" x="-7.62" y="141.986" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U$9" gate="G$1" x="195.58" y="71.12" smashed="yes" grouprefs="AUDIO_OUTPUT">
-<attribute name="VALUE" x="195.58" y="70.866" size="1.778" layer="96" align="top-center"/>
+<instance part="U$9" gate="G$1" x="215.9" y="68.58" smashed="yes" grouprefs="AUDIO_OUTPUT">
+<attribute name="VALUE" x="215.9" y="68.326" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U$10" gate="G$1" x="210.82" y="81.28" smashed="yes" grouprefs="AUDIO_OUTPUT">
-<attribute name="VALUE" x="210.82" y="81.026" size="1.778" layer="96" align="top-center"/>
+<instance part="U$10" gate="G$1" x="231.14" y="78.74" smashed="yes" grouprefs="AUDIO_OUTPUT">
+<attribute name="VALUE" x="231.14" y="78.486" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U$11" gate="G$1" x="274.32" y="81.28" smashed="yes" grouprefs="AUDIO_OUTPUT">
-<attribute name="VALUE" x="274.32" y="81.026" size="1.778" layer="96" align="top-center"/>
+<instance part="U$11" gate="G$1" x="294.64" y="78.74" smashed="yes" grouprefs="AUDIO_OUTPUT">
+<attribute name="VALUE" x="294.64" y="78.486" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U$12" gate="G$1" x="254" y="104.14" smashed="yes" grouprefs="AUDIO_OUTPUT">
-<attribute name="VALUE" x="254" y="103.886" size="1.778" layer="96" align="top-center"/>
+<instance part="U$12" gate="G$1" x="274.32" y="101.6" smashed="yes" grouprefs="AUDIO_OUTPUT">
+<attribute name="VALUE" x="274.32" y="101.346" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY1" gate="GND" x="160.02" y="93.98" smashed="yes">
+<attribute name="VALUE" x="155.575" y="90.805" size="1.778" layer="96"/>
+</instance>
+<instance part="C8" gate="G$1" x="160.02" y="104.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="158.496" y="101.219" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="158.496" y="106.299" size="1.778" layer="96" font="vector" rot="R180"/>
+</instance>
+<instance part="C13" gate="G$1" x="165.1" y="101.6" smashed="yes">
+<attribute name="NAME" x="166.624" y="104.521" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="166.624" y="99.441" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="SUPPLY3" gate="GND" x="165.1" y="93.98" smashed="yes">
+<attribute name="VALUE" x="163.195" y="90.805" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -9855,11 +9873,6 @@ and providing isolated 5V power to the audio components</text>
 <wire x1="38.1" y1="0" x2="38.1" y2="-2.54" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="SEED" gate="G$1" pin="GND"/>
-<pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<wire x1="134.62" y1="114.3" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="PWR" gate="G$1" pin="1"/>
@@ -9905,6 +9918,24 @@ and providing isolated 5V power to the audio components</text>
 <pinref part="U$1" gate="G$1" pin="AGND"/>
 <wire x1="162.56" y1="-15.24" x2="162.56" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="162.56" y="-12.7"/>
+</segment>
+<segment>
+<pinref part="SEED" gate="G$1" pin="GND"/>
+<wire x1="134.62" y1="114.3" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="114.3" x2="149.86" y2="127" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="127" x2="162.56" y2="127" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="GND" pin="GND"/>
+<wire x1="162.56" y1="127" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="SUPPLY1" gate="GND" pin="GND"/>
+<wire x1="160.02" y1="99.06" x2="160.02" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="SUPPLY3" gate="GND" pin="GND"/>
+<wire x1="165.1" y1="99.06" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPST1" class="0">
@@ -9975,8 +10006,8 @@ and providing isolated 5V power to the audio components</text>
 <label x="58.42" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="185.42" y1="88.9" x2="177.8" y2="88.9" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
-<label x="172.72" y="86.36" size="1.778" layer="95" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="205.74" y1="86.36" x2="198.12" y2="86.36" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<label x="193.04" y="83.82" size="1.778" layer="95" grouprefs="AUDIO_OUTPUT"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -10113,14 +10144,14 @@ and providing isolated 5V power to the audio components</text>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="101.6" x2="195.58" y2="104.14" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
-<label x="185.42" y="104.14" size="1.778" layer="95" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="215.9" y1="99.06" x2="215.9" y2="101.6" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<label x="205.74" y="101.6" size="1.778" layer="95" grouprefs="AUDIO_OUTPUT"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="V+"/>
-<wire x1="269.24" y1="93.98" x2="274.32" y2="93.98" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
-<wire x1="274.32" y1="93.98" x2="274.32" y2="101.6" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
-<label x="269.24" y="101.6" size="1.778" layer="95" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="289.56" y1="91.44" x2="294.64" y2="91.44" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="294.64" y1="91.44" x2="294.64" y2="99.06" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<label x="289.56" y="99.06" size="1.778" layer="95" grouprefs="AUDIO_OUTPUT"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -10194,13 +10225,13 @@ and providing isolated 5V power to the audio components</text>
 <net name="N$12" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="INA+"/>
-<wire x1="213.36" y1="88.9" x2="195.58" y2="88.9" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="233.68" y1="86.36" x2="215.9" y2="86.36" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="91.44" x2="195.58" y2="88.9" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
-<junction x="195.58" y="88.9" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="215.9" y1="88.9" x2="215.9" y2="86.36" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<junction x="215.9" y="86.36" grouprefs="AUDIO_OUTPUT"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="88.9" x2="195.58" y2="86.36" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
-<wire x1="193.04" y1="88.9" x2="195.58" y2="88.9" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="215.9" y1="86.36" x2="215.9" y2="83.82" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="213.36" y1="86.36" x2="215.9" y2="86.36" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -10211,33 +10242,33 @@ and providing isolated 5V power to the audio components</text>
 <pinref part="AUD_PIN" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="228.6" y1="106.68" x2="238.76" y2="106.68" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
-<wire x1="238.76" y1="106.68" x2="238.76" y2="109.22" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
-<label x="238.76" y="114.3" size="1.778" layer="95" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="248.92" y1="104.14" x2="259.08" y2="104.14" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="259.08" y1="104.14" x2="259.08" y2="106.68" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<label x="259.08" y="111.76" size="1.778" layer="95" grouprefs="AUDIO_OUTPUT"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="238.76" y1="109.22" x2="238.76" y2="114.3" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
-<wire x1="238.76" y1="109.22" x2="241.3" y2="109.22" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
-<junction x="238.76" y="109.22" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="259.08" y1="106.68" x2="259.08" y2="111.76" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="259.08" y1="106.68" x2="261.62" y2="106.68" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<junction x="259.08" y="106.68" grouprefs="AUDIO_OUTPUT"/>
 <pinref part="C10" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="OUTA"/>
-<wire x1="213.36" y1="93.98" x2="208.28" y2="93.98" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
-<wire x1="208.28" y1="93.98" x2="205.74" y2="93.98" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
-<wire x1="205.74" y1="93.98" x2="205.74" y2="91.44" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="233.68" y1="91.44" x2="228.6" y2="91.44" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="228.6" y1="91.44" x2="226.06" y2="91.44" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="226.06" y1="91.44" x2="226.06" y2="88.9" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
 <pinref part="U1" gate="A" pin="INA-"/>
-<wire x1="205.74" y1="91.44" x2="213.36" y2="91.44" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
-<wire x1="208.28" y1="93.98" x2="208.28" y2="106.68" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
-<junction x="208.28" y="93.98" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="226.06" y1="88.9" x2="233.68" y2="88.9" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="228.6" y1="91.44" x2="228.6" y2="104.14" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<junction x="228.6" y="91.44" grouprefs="AUDIO_OUTPUT"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="106.68" x2="220.98" y2="106.68" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="238.76" y1="104.14" x2="241.3" y2="104.14" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -10255,17 +10286,25 @@ and providing isolated 5V power to the audio components</text>
 <net name="N$15" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="OUTB"/>
-<wire x1="269.24" y1="91.44" x2="274.32" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="91.44" x2="274.32" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="88.9" x2="294.64" y2="88.9" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="294.64" y1="88.9" x2="294.64" y2="86.36" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
 <pinref part="U1" gate="A" pin="INB-"/>
-<wire x1="274.32" y1="88.9" x2="269.24" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="86.36" x2="289.56" y2="86.36" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
 </segment>
 </net>
 <net name="+3V3_D" class="0">
 <segment>
 <pinref part="SEED" gate="G$1" pin="+3V3_D"/>
-<wire x1="134.62" y1="109.22" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
-<label x="139.7" y="109.22" size="1.778" layer="95"/>
+<wire x1="134.62" y1="109.22" x2="160.02" y2="109.22" width="0.1524" layer="91"/>
+<label x="172.72" y="109.22" size="1.778" layer="95"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="160.02" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="109.22" x2="180.34" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="109.22" x2="160.02" y2="106.68" width="0.1524" layer="91"/>
+<junction x="160.02" y="109.22"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="109.22" x2="165.1" y2="106.68" width="0.1524" layer="91"/>
+<junction x="165.1" y="109.22"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -10463,25 +10502,25 @@ and providing isolated 5V power to the audio components</text>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="V-"/>
-<wire x1="213.36" y1="86.36" x2="210.82" y2="86.36" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
-<wire x1="210.82" y1="86.36" x2="210.82" y2="83.82" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="233.68" y1="83.82" x2="231.14" y2="83.82" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="231.14" y1="83.82" x2="231.14" y2="81.28" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
 <pinref part="U$10" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="76.2" x2="195.58" y2="73.66" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="215.9" y1="73.66" x2="215.9" y2="71.12" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
 <pinref part="U$9" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="251.46" y1="109.22" x2="254" y2="109.22" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
-<wire x1="254" y1="109.22" x2="254" y2="106.68" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="271.78" y1="106.68" x2="274.32" y2="106.68" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="274.32" y1="106.68" x2="274.32" y2="104.14" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
 <pinref part="U$12" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="INB+"/>
-<wire x1="269.24" y1="86.36" x2="274.32" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="86.36" x2="274.32" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="83.82" x2="294.64" y2="83.82" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
+<wire x1="294.64" y1="83.82" x2="294.64" y2="81.28" width="0.1524" layer="91" grouprefs="AUDIO_OUTPUT"/>
 <pinref part="U$11" gate="G$1" pin="AGND"/>
 </segment>
 </net>
