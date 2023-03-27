@@ -556,19 +556,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-4.535" y1="5.08" x2="3.3" y2="5.08" width="0.2" layer="21"/>
 <wire x1="-3.3" y1="-5.08" x2="3.3" y2="-5.08" width="0.2" layer="21"/>
 </package>
-<package name="TO-92_(TO-226)">
-<description>&lt;b&gt;TO92 (TO226)&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="0.94" diameter="1.44"/>
-<pad name="2" x="-1.27" y="-1.27" drill="0.94" diameter="1.44"/>
-<pad name="3" x="-2.54" y="0" drill="0.94" diameter="1.44"/>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<wire x1="-3.37216875" y1="1.53" x2="0.83216875" y2="1.53" width="0.2" layer="51" curve="252.1"/>
-<wire x1="-3.37216875" y1="1.53" x2="0.83216875" y2="1.53" width="0.2" layer="51"/>
-<wire x1="-3.37216875" y1="1.53" x2="0.83216875" y2="1.53" width="0.1" layer="21" curve="252.1"/>
-<wire x1="-3.37216875" y1="1.53" x2="0.83216875" y2="1.53" width="0.1" layer="21"/>
-</package>
 <package name="100SP1T1B4M2QE">
 <description>&lt;b&gt;100SP1T1B4M2QE&lt;/b&gt;&lt;br&gt;
 </description>
@@ -612,29 +599,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="2IN-" x="27.94" y="-5.08" length="middle" direction="in" rot="R180"/>
 <pin name="2IN+" x="27.94" y="-7.62" length="middle" direction="in" rot="R180"/>
 </symbol>
-<symbol name="2N7000">
-<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="5.842" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.842" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="5.842" y1="5.588" x2="5.842" y2="4.572" width="0.254" layer="94"/>
-<wire x1="5.842" y1="-0.508" x2="5.842" y2="0.508" width="0.254" layer="94"/>
-<wire x1="5.842" y1="2.032" x2="5.842" y2="3.048" width="0.254" layer="94"/>
-<circle x="6.35" y="2.54" radius="3.81" width="0.254" layer="94"/>
-<text x="11.43" y="3.81" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="11.43" y="1.27" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="G" x="0" y="0" visible="pad" length="short"/>
-<pin name="D" x="7.62" y="10.16" visible="pad" length="short" rot="R270"/>
-<pin name="S" x="7.62" y="-5.08" visible="pad" length="short" rot="R90"/>
-<polygon width="0.254" layer="94">
-<vertex x="5.842" y="2.54"/>
-<vertex x="6.858" y="3.048"/>
-<vertex x="6.858" y="2.032"/>
-</polygon>
-</symbol>
 <symbol name="100SP1T1B2M2QE">
 <wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-7.62" x2="17.78" y2="2.54" width="0.254" layer="94"/>
@@ -674,32 +638,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/mc1458.pdf"&gt; Datasheet &
 <attribute name="MANUFACTURER_PART_NUMBER" value="MC1458P" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="595-MC1458P" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/MC1458P?qs=YhsVCygOPE1MedllaWxE%252BA%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="2N7000" prefix="Q">
-<description>&lt;b&gt;N-channel MOSFET,2N7000 0.2A 60V&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="2N7000" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TO-92_(TO-226)">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="2"/>
-<connect gate="G$1" pin="S" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="N-channel MOSFET,2N7000 0.2A 60V" constant="no"/>
-<attribute name="HEIGHT" value="mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="2N7000" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="512-2N7000" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/2N7000/?qs=FOlmdCx%252BAA2o%2FKZOTk%2F3hg%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3028,11 +2966,8 @@ part number 2062-2P from STA</description>
 <part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-HORIZ-1/4W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="10k"/>
 <part name="C7" library="Custom-Parts" deviceset="47UF-POLAR" device="-RADIAL-2.5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37415/1" value="47uF"/>
 <part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-KIT2" package3d_urn="urn:adsk.eagle:package:38455/1" value="BAT41"/>
-<part name="Q2" library="SamacSys_Parts" deviceset="2N7000" device=""/>
-<part name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-KIT2" package3d_urn="urn:adsk.eagle:package:38455/1" value="BAT41"/>
 <part name="D3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-KIT2" package3d_urn="urn:adsk.eagle:package:38455/1" value="BAT41"/>
 <part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-HORIZ-1/4W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="1k"/>
-<part name="Q1" library="SamacSys_Parts" deviceset="2N7000" device=""/>
 <part name="GAIN" library="Custom-Parts" deviceset="16MMPOT" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="B500k"/>
 <part name="VOICE" library="Custom-Parts" deviceset="16MMPOT" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="B10k"/>
 <part name="TONE" library="Custom-Parts" deviceset="16MMPOT" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="B50k"/>
@@ -3126,14 +3061,6 @@ part number 2062-2P from STA</description>
 <attribute name="NAME" x="-15.24" y="108.712" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="-15.24" y="104.648" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="Q2" gate="G$1" x="-5.08" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="-3.81" y="133.35" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="-3.81" y="130.81" size="1.778" layer="96" rot="R180" align="center-left"/>
-</instance>
-<instance part="D2" gate="G$1" x="2.54" y="127" smashed="yes" rot="R180">
-<attribute name="NAME" x="5.08" y="124.968" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="5.08" y="129.032" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
-</instance>
 <instance part="D3" gate="G$1" x="7.62" y="127" smashed="yes" rot="R180">
 <attribute name="NAME" x="10.16" y="124.968" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="15.24" y="129.032" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
@@ -3141,10 +3068,6 @@ part number 2062-2P from STA</description>
 <instance part="R8" gate="G$1" x="0" y="139.7" smashed="yes">
 <attribute name="NAME" x="0" y="141.224" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="0" y="138.176" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="Q1" gate="G$1" x="-2.54" y="114.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="-1.27" y="100.33" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-1.27" y="102.87" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="GAIN" gate="G$1" x="-7.62" y="144.78" smashed="yes" rot="R270">
 <attribute name="NAME" x="-11.43" y="150.749" size="1.778" layer="95"/>
@@ -3282,11 +3205,8 @@ part number 2062-2P from STA</description>
 <wire x1="10.16" y1="91.44" x2="2.54" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="10.16" y1="91.44" x2="10.16" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="106.68" x2="10.16" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="106.68" x2="10.16" y2="114.3" width="0.1524" layer="91"/>
-<junction x="10.16" y="106.68"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="10.16" y1="114.3" x2="10.16" y2="127" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="106.68" x2="10.16" y2="127" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="127" x2="10.16" y2="144.78" width="0.1524" layer="91"/>
 <junction x="10.16" y="127"/>
 <wire x1="-2.54" y1="144.78" x2="5.08" y2="144.78" width="0.1524" layer="91"/>
@@ -3299,11 +3219,10 @@ part number 2062-2P from STA</description>
 <pinref part="IC1" gate="G$1" pin="1OUT"/>
 <wire x1="20.32" y1="83.82" x2="10.16" y2="83.82" width="0.1524" layer="91"/>
 <label x="12.7" y="83.82" size="1.778" layer="95"/>
-<wire x1="-2.54" y1="114.3" x2="10.16" y2="114.3" width="0.1524" layer="91"/>
-<junction x="10.16" y="114.3"/>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<pinref part="Q1" gate="G$1" pin="D"/>
 <pinref part="GAIN" gate="G$1" pin="E"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="-10.16" y1="106.68" x2="10.16" y2="106.68" width="0.1524" layer="91"/>
+<junction x="10.16" y="106.68"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -3376,31 +3295,8 @@ part number 2062-2P from STA</description>
 <pinref part="S1" gate="G$1" pin="COM"/>
 </segment>
 </net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="-10.16" y1="106.68" x2="-7.62" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="S"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="Q2" gate="G$1" pin="S"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="D2" gate="G$1" pin="A"/>
-<pinref part="D3" gate="G$1" pin="C"/>
-</segment>
-</net>
 <net name="OP2" class="0">
 <segment>
-<pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="-5.08" y1="119.38" x2="-15.24" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="-15.24" y1="119.38" x2="-15.24" y2="127" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="-17.78" y1="91.44" x2="-5.08" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="91.44" x2="-17.78" y2="106.68" width="0.1524" layer="91"/>
@@ -3409,9 +3305,6 @@ part number 2062-2P from STA</description>
 <wire x1="-17.78" y1="106.68" x2="-17.78" y2="127" width="0.1524" layer="91"/>
 <junction x="-17.78" y="106.68"/>
 <wire x1="-17.78" y1="127" x2="-17.78" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="127" x2="-17.78" y2="127" width="0.1524" layer="91"/>
-<junction x="-15.24" y="127"/>
-<junction x="-17.78" y="127"/>
 <wire x1="-17.78" y1="144.78" x2="-12.7" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="91.44" x2="-17.78" y2="81.28" width="0.1524" layer="91"/>
 <junction x="-17.78" y="91.44"/>
@@ -3424,6 +3317,9 @@ part number 2062-2P from STA</description>
 <wire x1="2.54" y1="73.66" x2="7.62" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="73.66" x2="7.62" y2="81.28" width="0.1524" layer="91"/>
 <junction x="7.62" y="81.28"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="5.08" y1="127" x2="-17.78" y2="127" width="0.1524" layer="91"/>
+<junction x="-17.78" y="127"/>
 </segment>
 </net>
 <net name="N$5" class="0">
