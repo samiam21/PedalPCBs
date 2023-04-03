@@ -204,48 +204,6 @@
 </package>
 </packages>
 </library>
-<library name="SparkFun-Resistors" urn="urn:adsk.eagle:library:532">
-<description>&lt;h3&gt;SparkFun Resistors&lt;/h3&gt;
-This library contains resistors. Reference designator:R. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="AXIAL-0.3" urn="urn:adsk.eagle:footprint:39622/1" library_version="1">
-<description>&lt;h3&gt;AXIAL-0.3&lt;/h3&gt;
-&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.&lt;/p&gt;</description>
-<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
-<pad name="P$1" x="-3.81" y="0" drill="0.9" diameter="1.8796"/>
-<pad name="P$2" x="3.81" y="0" drill="0.9" diameter="1.8796"/>
-<text x="0" y="1.016" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="AXIAL-0.3" urn="urn:adsk.eagle:package:39658/1" type="box" library_version="1">
-<description>AXIAL-0.3
-Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.</description>
-<packageinstances>
-<packageinstance name="AXIAL-0.3"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="Electrosmith_Boards">
 <packages>
 <package name="ES_DAISY_SEED">
@@ -536,6 +494,32 @@ Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.</descri
 </package>
 </packages>
 </library>
+<library name="resistors">
+<packages>
+<package name="7.5MM.2">
+<description>&lt;b&gt;7.5mm spacing, 1/4W&lt;/b&gt;</description>
+<wire x1="-2.81" y1="0.762" x2="-2.556" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.81" y1="-0.762" x2="-2.556" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.556" y1="-1.016" x2="2.81" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.556" y1="1.016" x2="2.81" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.81" y1="-0.762" x2="-2.81" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.556" y1="1.016" x2="-1.54" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.413" y1="0.889" x2="-1.54" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-2.556" y1="-1.016" x2="-1.54" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-1.413" y1="-0.889" x2="-1.54" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.413" y1="0.889" x2="1.54" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.413" y1="0.889" x2="-1.413" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="1.413" y1="-0.889" x2="1.54" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.413" y1="-0.889" x2="-1.413" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="2.556" y1="1.016" x2="1.54" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="2.556" y1="-1.016" x2="1.54" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.81" y1="-0.762" x2="2.81" y2="0.762" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1" diameter="2"/>
+<pad name="2" x="3.81" y="0" drill="1" diameter="2"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -737,33 +721,23 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-22.86" y="61.595" size="1.016" layer="25" ratio="12" align="center"/>
 <attribute name="NAME" x="-22.86" y="61.595" size="1.016" layer="26" ratio="12" rot="MR0" align="center"/>
 </element>
-<element name="POT1" library="potentiometers" package="16MM_PADS.2" value="" x="-19.05" y="64.77" smashed="yes">
+<element name="POT1" library="potentiometers" package="16MM_PADS.2" value="B10K" x="-19.05" y="64.77" smashed="yes">
 <attribute name="NAME" x="-19.05" y="66.675" size="0.8128" layer="21" align="center"/>
 </element>
-<element name="POT2" library="potentiometers" package="16MM_PADS.2" value="" x="-30.48" y="64.77" smashed="yes">
+<element name="POT2" library="potentiometers" package="16MM_PADS.2" value="B10K" x="-30.48" y="64.77" smashed="yes">
 <attribute name="NAME" x="-30.48" y="66.675" size="0.8128" layer="21" align="center"/>
 </element>
-<element name="POT3" library="potentiometers" package="16MM_PADS.2" value="" x="-41.91" y="64.77" smashed="yes">
+<element name="POT3" library="potentiometers" package="16MM_PADS.2" value="B10K" x="-41.91" y="64.77" smashed="yes">
 <attribute name="NAME" x="-41.91" y="66.675" size="0.8128" layer="21" align="center"/>
 </element>
-<element name="POT4" library="potentiometers" package="16MM_PADS.2" value="" x="-53.34" y="64.77" smashed="yes">
+<element name="POT4" library="potentiometers" package="16MM_PADS.2" value="B10K" x="-53.34" y="64.77" smashed="yes">
 <attribute name="NAME" x="-53.34" y="66.675" size="0.8128" layer="21" align="center"/>
 </element>
-<element name="POT5" library="potentiometers" package="16MM_PADS.2" value="" x="-19.05" y="69.85" smashed="yes">
+<element name="POT5" library="potentiometers" package="16MM_PADS.2" value="B10K" x="-19.05" y="69.85" smashed="yes">
 <attribute name="NAME" x="-19.05" y="71.755" size="0.8128" layer="21" align="center"/>
 </element>
-<element name="POT6" library="potentiometers" package="16MM_PADS.2" value="" x="-30.48" y="69.85" smashed="yes">
+<element name="POT6" library="potentiometers" package="16MM_PADS.2" value="B10K" x="-30.48" y="69.85" smashed="yes">
 <attribute name="NAME" x="-30.48" y="71.755" size="0.8128" layer="21" align="center"/>
-</element>
-<element name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="1k" x="-44.45" y="69.85" smashed="yes">
-<attribute name="NAME" x="-44.45" y="70.866" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-12182" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-44.45" y="68.834" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="1k" x="-17.78" y="74.93" smashed="yes">
-<attribute name="NAME" x="-17.78" y="75.946" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-12182" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-17.78" y="73.914" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="SW1" library="switches" package="SPST" value="SPST" x="-29.21" y="59.69" smashed="yes">
 <attribute name="NAME" x="-29.21" y="61.595" size="1.016" layer="25" ratio="12" align="center"/>
@@ -787,10 +761,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-15.35" y="2.715" size="1.778" layer="21" rot="R180"/>
 </element>
 <element name="PWR" library="supply pins" package="UNLABELED" value="PADRD" x="-57.15" y="-1.27" smashed="yes">
-<attribute name="NM" value="+" x="-57.15" y="-1.27" size="1.778" layer="27" display="off"/>
+<attribute name="NM" value="+" x="-59.69" y="-1.27" size="1.778" layer="27"/>
 </element>
 <element name="GND" library="supply pins" package="UNLABELED" value="PADRD" x="-57.15" y="-3.81" smashed="yes">
-<attribute name="NM" value="-" x="-57.15" y="-3.81" size="1.778" layer="27" display="off"/>
+<attribute name="NM" value="-" x="-59.69" y="-3.81" size="1.778" layer="27"/>
 </element>
 <element name="LED1" library="diodes" package="3MM_2" value="LED.3" x="-55.88" y="-7.62" smashed="yes">
 <attribute name="NAME" x="-55.88" y="-9.779" size="0.8128" layer="25" align="center"/>
@@ -851,6 +825,45 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-64.77" y="-74.93" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="-64.77" y="-74.93" size="1.27" layer="27" align="center"/>
 </element>
+<element name="R2" library="resistors" package="7.5MM.2" value="1M" x="-64.77" y="-82.55" smashed="yes">
+<attribute name="NAME" x="-64.77" y="-82.55" size="1.27" layer="25" align="center"/>
+</element>
+<element name="R9" library="resistors" package="7.5MM.2" value="1M" x="-64.77" y="-85.09" smashed="yes">
+<attribute name="NAME" x="-64.77" y="-85.09" size="1.27" layer="25" align="center"/>
+</element>
+<element name="R5" library="resistors" package="7.5MM.2" value="1K" x="-64.77" y="-87.63" smashed="yes">
+<attribute name="NAME" x="-64.77" y="-87.63" size="1.27" layer="25" align="center"/>
+</element>
+<element name="R8" library="resistors" package="7.5MM.2" value="1K" x="-64.77" y="-90.17" smashed="yes">
+<attribute name="NAME" x="-64.77" y="-90.17" size="1.27" layer="25" align="center"/>
+</element>
+<element name="R4" library="resistors" package="7.5MM.2" value="100R" x="-64.77" y="-92.71" smashed="yes">
+<attribute name="NAME" x="-64.77" y="-92.71" size="1.27" layer="25" align="center"/>
+</element>
+<element name="R6" library="resistors" package="7.5MM.2" value="100K" x="-64.77" y="-95.25" smashed="yes">
+<attribute name="NAME" x="-64.77" y="-95.25" size="1.27" layer="25" align="center"/>
+</element>
+<element name="OUT" library="supply pins" package="UNLABELED" value="PADRD" x="-68.58" y="-97.79" smashed="yes">
+<attribute name="NM" value="OUT" x="-74.93" y="-99.06" size="1.778" layer="27"/>
+</element>
+<element name="OUT_GND" library="supply pins" package="UNLABELED" value="PADRD" x="-68.58" y="-100.33" smashed="yes">
+<attribute name="NM" value="GND" x="-68.58" y="-100.33" size="1.778" layer="27" display="off"/>
+</element>
+<element name="IN" library="supply pins" package="UNLABELED" value="PADRD" x="-73.66" y="-102.87" smashed="yes">
+<attribute name="NM" value="IN" x="-73.66" y="-102.87" size="1.778" layer="27" display="off"/>
+</element>
+<element name="IN_GND" library="supply pins" package="UNLABELED" value="PADRD" x="-73.66" y="-105.41" smashed="yes">
+<attribute name="NM" value="GND" x="-73.66" y="-105.41" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R7" library="resistors" package="7.5MM.2" value="1K" x="-69.85" y="-107.95" smashed="yes">
+<attribute name="NAME" x="-69.85" y="-107.95" size="1.27" layer="25" align="center"/>
+</element>
+<element name="R1" library="resistors" package="7.5MM.2" value="1M" x="-69.85" y="-110.49" smashed="yes">
+<attribute name="NAME" x="-69.85" y="-110.49" size="1.27" layer="25" align="center"/>
+</element>
+<element name="R3" library="resistors" package="7.5MM.2" value="1M" x="-69.85" y="-113.03" smashed="yes">
+<attribute name="NAME" x="-69.85" y="-113.03" size="1.27" layer="25" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="VCC">
@@ -893,11 +906,27 @@ design rules under a new name.</description>
 <contactref element="C9" pad="2"/>
 <contactref element="C5" pad="2"/>
 <contactref element="IC2" pad="2"/>
+<contactref element="R9" pad="1"/>
+<contactref element="IC1" pad="4"/>
+<contactref element="R6" pad="2"/>
+<contactref element="OUT_GND" pad="P$1"/>
+<contactref element="IN_GND" pad="P$1"/>
+<contactref element="C1" pad="2"/>
+<contactref element="R3" pad="2"/>
+<contactref element="C7" pad="2"/>
+<wire x1="-68.58" y1="-100.33" x2="-73.66" y2="-105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.96" y1="-95.25" x2="-68.58" y2="-100.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-66.04" y1="-113.03" x2="-73.66" y2="-105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.58" y1="-85.09" x2="-60.96" y2="-95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.74" y1="-78.74" x2="-68.58" y2="-85.09" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.61" y1="-78.74" x2="-68.74" y2="-78.74" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.07" y1="-71.12" x2="-54.61" y2="-78.74" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.07" y1="-66.04" x2="-52.07" y2="-71.12" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.07" y1="-43.18" x2="-52.07" y2="-66.04" width="0" layer="19" extent="1-1"/>
-<wire x1="-52.07" y1="-33.02" x2="-52.07" y2="-43.18" width="0" layer="19" extent="1-1"/>
-<wire x1="-54.61" y1="-22.86" x2="-52.07" y2="-33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.07" y1="-38.1" x2="-52.07" y2="-43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.07" y1="-33.02" x2="-52.07" y2="-38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.07" y1="-27.94" x2="-52.07" y2="-33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.61" y1="-22.86" x2="-52.07" y2="-27.94" width="0" layer="19" extent="1-1"/>
 <wire x1="-54.61" y1="-12.7" x2="-54.61" y2="-22.86" width="0" layer="19" extent="1-1"/>
 <wire x1="-54.61" y1="-7.62" x2="-54.61" y2="-12.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-57.15" y1="-3.81" x2="-54.61" y2="-7.62" width="0" layer="19" extent="1-1"/>
@@ -973,19 +1002,25 @@ design rules under a new name.</description>
 </signal>
 <signal name="LED2">
 <contactref element="U1" pad="30"/>
-<contactref element="R8" pad="P$2"/>
-<wire x1="-15.113" y1="27.94" x2="-13.97" y2="74.93" width="0" layer="19" extent="1-1"/>
+<contactref element="R8" pad="2"/>
+<wire x1="-15.113" y1="27.94" x2="-60.96" y2="-90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED1">
 <contactref element="U1" pad="29"/>
-<contactref element="R5" pad="P$2"/>
-<wire x1="-15.367" y1="25.4" x2="-40.64" y2="69.85" width="0" layer="19" extent="1-1"/>
+<contactref element="R5" pad="2"/>
+<wire x1="-15.367" y1="25.4" x2="-60.96" y2="-87.63" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEFT_OUT">
 <contactref element="U1" pad="18"/>
+<contactref element="C2" pad="2"/>
+<wire x1="-30.607" y1="10.16" x2="-52.07" y2="-54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEFT_IN">
 <contactref element="U1" pad="16"/>
+<contactref element="IC1" pad="1"/>
+<contactref element="IC1" pad="2"/>
+<wire x1="-68.74" y1="-71.12" x2="-68.74" y2="-73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.607" y1="15.24" x2="-68.74" y2="-71.12" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW4">
 <contactref element="U1" pad="8"/>
@@ -1008,14 +1043,14 @@ design rules under a new name.</description>
 <wire x1="-30.353" y1="27.94" x2="-30.48" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
-<contactref element="R5" pad="P$1"/>
 <contactref element="LED1" pad="ANODE"/>
-<wire x1="-48.26" y1="69.85" x2="-57.15" y2="-7.62" width="0" layer="19" extent="1-1"/>
+<contactref element="R5" pad="1"/>
+<wire x1="-57.15" y1="-7.62" x2="-68.58" y2="-87.63" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
-<contactref element="R8" pad="P$1"/>
 <contactref element="LED2" pad="ANODE"/>
-<wire x1="-21.59" y1="74.93" x2="-57.15" y2="-12.7" width="0" layer="19" extent="1-1"/>
+<contactref element="R8" pad="1"/>
+<wire x1="-57.15" y1="-12.7" x2="-68.58" y2="-90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="PWR" pad="P$1"/>
@@ -1026,32 +1061,65 @@ design rules under a new name.</description>
 <contactref element="C9" pad="1"/>
 <contactref element="C5" pad="1"/>
 <contactref element="IC2" pad="1"/>
+<contactref element="R2" pad="2"/>
+<contactref element="IC1" pad="8"/>
+<contactref element="R1" pad="1"/>
+<wire x1="-60.96" y1="-82.55" x2="-73.66" y2="-110.49" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.88" y1="-78.74" x2="-60.96" y2="-82.55" width="0" layer="19" extent="1-1"/>
 <wire x1="-57.15" y1="-71.12" x2="-55.88" y2="-78.74" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.8" y1="-71.12" x2="-57.15" y2="-71.12" width="0" layer="19" extent="1-1"/>
 <wire x1="-57.15" y1="-43.18" x2="-57.15" y2="-71.12" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="IC1_4">
-<contactref element="IC1" pad="4"/>
+<signal name="N$10">
+<contactref element="R4" pad="1"/>
+<contactref element="C3" pad="2"/>
+<wire x1="-52.07" y1="-60.96" x2="-68.58" y2="-92.71" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="IC1_3">
-<contactref element="IC1" pad="3"/>
-</signal>
-<signal name="IC1_2">
-<contactref element="IC1" pad="2"/>
-</signal>
-<signal name="IC1_1">
-<contactref element="IC1" pad="1"/>
-</signal>
-<signal name="IC1_8">
-<contactref element="IC1" pad="8"/>
-</signal>
-<signal name="IC1_7">
-<contactref element="IC1" pad="7"/>
-</signal>
-<signal name="IC1_6">
+<signal name="N$14">
 <contactref element="IC1" pad="6"/>
+<contactref element="IC1" pad="7"/>
+<contactref element="R4" pad="2"/>
+<wire x1="-60.8" y1="-76.2" x2="-60.96" y2="-92.71" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.8" y1="-73.66" x2="-60.8" y2="-76.2" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="IC1_5">
+<signal name="N$11">
+<contactref element="C3" pad="1"/>
+<contactref element="R6" pad="1"/>
+<contactref element="OUT" pad="P$1"/>
+<wire x1="-68.58" y1="-95.25" x2="-68.58" y2="-97.79" width="0" layer="19" extent="1-1"/>
+<wire x1="-57.15" y1="-60.96" x2="-68.58" y2="-95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="IN" pad="P$1"/>
+<contactref element="C6" pad="2"/>
+<contactref element="C1" pad="1"/>
+<wire x1="-52.07" y1="-48.26" x2="-73.66" y2="-102.87" width="0" layer="19" extent="1-1"/>
+<wire x1="-57.15" y1="-27.94" x2="-52.07" y2="-48.26" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<contactref element="C6" pad="1"/>
+<contactref element="R7" pad="2"/>
+<wire x1="-57.15" y1="-48.26" x2="-66.04" y2="-107.95" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$16">
+<contactref element="R7" pad="1"/>
+<contactref element="R1" pad="2"/>
+<contactref element="R3" pad="1"/>
+<contactref element="C7" pad="1"/>
+<contactref element="IC1" pad="3"/>
+<wire x1="-73.66" y1="-107.95" x2="-73.66" y2="-113.03" width="0" layer="19" extent="1-1"/>
+<wire x1="-66.04" y1="-110.49" x2="-73.66" y2="-113.03" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.74" y1="-76.2" x2="-73.66" y2="-107.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-57.15" y1="-38.1" x2="-68.74" y2="-76.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$17">
+<contactref element="C2" pad="1"/>
+<contactref element="R2" pad="1"/>
+<contactref element="R9" pad="2"/>
 <contactref element="IC1" pad="5"/>
+<wire x1="-60.96" y1="-85.09" x2="-68.58" y2="-82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.8" y1="-78.74" x2="-60.96" y2="-85.09" width="0" layer="19" extent="1-1"/>
+<wire x1="-57.15" y1="-54.61" x2="-60.8" y2="-78.74" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -1063,21 +1131,4 @@ design rules under a new name.</description>
 </mfgpreviewcolors>
 </board>
 </drawing>
-<compatibility>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
-</note>
-</compatibility>
 </eagle>
