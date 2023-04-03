@@ -2607,7 +2607,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 </class>
 </classes>
 <parts>
-<part name="U1" library="Electrosmith_Boards" deviceset="ES_DAISY_SEED" device=""/>
+<part name="SEED1" library="Electrosmith_Boards" deviceset="ES_DAISY_SEED" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="POT1" library="potentiometers" deviceset="16MM" device=".5" value="B10K"/>
@@ -2698,7 +2698,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <plain>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="66.04" y="53.34" smashed="yes">
+<instance part="SEED1" gate="G$1" x="66.04" y="53.34" smashed="yes">
 <attribute name="NAME" x="40.64" y="81.28" size="1.778" layer="94"/>
 <attribute name="VALUE" x="91.44" y="22.86" size="1.778" layer="94" rot="R180"/>
 </instance>
@@ -2953,7 +2953,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <net name="VCC" class="0">
 <segment>
 <wire x1="104.14" y1="81.28" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="V_IN"/>
+<pinref part="SEED1" gate="G$1" pin="V_IN"/>
 <wire x1="104.14" y1="73.66" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
 <label x="101.6" y="81.28" size="1.778" layer="95"/>
 </segment>
@@ -2981,7 +2981,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 </net>
 <net name="3V3_D" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="+3V3_D"/>
+<pinref part="SEED1" gate="G$1" pin="+3V3_D"/>
 <wire x1="96.52" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="71.12" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
 <label x="109.22" y="81.28" size="1.778" layer="95"/>
@@ -2989,13 +2989,13 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="SEED1" gate="G$1" pin="GND"/>
 <wire x1="96.52" y1="76.2" x2="129.54" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="129.54" y1="76.2" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="AGND"/>
+<pinref part="SEED1" gate="G$1" pin="AGND"/>
 <wire x1="35.56" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="27.94" y1="27.94" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
@@ -3148,7 +3148,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 </net>
 <net name="3V3_A" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="+3V3_A"/>
+<pinref part="SEED1" gate="G$1" pin="+3V3_A"/>
 <wire x1="96.52" y1="27.94" x2="111.76" y2="27.94" width="0.1524" layer="91"/>
 <label x="106.68" y="27.94" size="1.778" layer="95"/>
 </segment>
@@ -3185,49 +3185,49 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO16(ADC1)"/>
+<pinref part="SEED1" gate="G$1" pin="GPIO16(ADC1)"/>
 <pinref part="POT1" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="33.02" x2="127" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO17(ADC2)"/>
+<pinref part="SEED1" gate="G$1" pin="GPIO17(ADC2)"/>
 <pinref part="POT2" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="35.56" x2="142.24" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO18(ADC3)"/>
+<pinref part="SEED1" gate="G$1" pin="GPIO18(ADC3)"/>
 <pinref part="POT3" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="38.1" x2="157.48" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO19(ADC4)"/>
+<pinref part="SEED1" gate="G$1" pin="GPIO19(ADC4)"/>
 <pinref part="POT4" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="40.64" x2="172.72" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO20(ADC5)"/>
+<pinref part="SEED1" gate="G$1" pin="GPIO20(ADC5)"/>
 <pinref part="POT5" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="43.18" x2="187.96" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO21(ADC6)"/>
+<pinref part="SEED1" gate="G$1" pin="GPIO21(ADC6)"/>
 <pinref part="POT6" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="45.72" x2="205.74" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FS2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO26(SAI2_SD_A)"/>
+<pinref part="SEED1" gate="G$1" pin="GPIO26(SAI2_SD_A)"/>
 <wire x1="96.52" y1="58.42" x2="101.6" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="58.42" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
 <label x="99.06" y="63.5" size="1.778" layer="95"/>
@@ -3240,7 +3240,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 </net>
 <net name="FS1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO25(ADC10)"/>
+<pinref part="SEED1" gate="G$1" pin="GPIO25(ADC10)"/>
 <wire x1="96.52" y1="55.88" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="55.88" x2="106.68" y2="63.5" width="0.1524" layer="91"/>
 <label x="104.14" y="63.5" size="1.778" layer="95"/>
@@ -3253,7 +3253,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 </net>
 <net name="LED2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO23(ADC8/DAC1)"/>
+<pinref part="SEED1" gate="G$1" pin="GPIO23(ADC8/DAC1)"/>
 <wire x1="96.52" y1="50.8" x2="114.3" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="50.8" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
 <label x="111.76" y="63.5" size="1.778" layer="95"/>
@@ -3266,7 +3266,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 </net>
 <net name="LED1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO22(ADC7/DAC2)"/>
+<pinref part="SEED1" gate="G$1" pin="GPIO22(ADC7/DAC2)"/>
 <wire x1="96.52" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="48.26" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
 <label x="119.38" y="63.5" size="1.778" layer="95"/>
@@ -3279,7 +3279,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 </net>
 <net name="LEFT_OUT" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="AUDIO_OUT_L"/>
+<pinref part="SEED1" gate="G$1" pin="AUDIO_OUT_L"/>
 <wire x1="35.56" y1="33.02" x2="10.16" y2="33.02" width="0.1524" layer="91"/>
 <label x="5.08" y="33.02" size="1.778" layer="95"/>
 </segment>
@@ -3291,7 +3291,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 </net>
 <net name="LEFT_IN" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="AUDIO_IN_L"/>
+<pinref part="SEED1" gate="G$1" pin="AUDIO_IN_L"/>
 <wire x1="35.56" y1="38.1" x2="10.16" y2="38.1" width="0.1524" layer="91"/>
 <label x="5.08" y="38.1" size="1.778" layer="95"/>
 </segment>
@@ -3309,7 +3309,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 </net>
 <net name="SW4" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO7(SPI1_NSS)"/>
+<pinref part="SEED1" gate="G$1" pin="GPIO7(SPI1_NSS)"/>
 <wire x1="35.56" y1="58.42" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="58.42" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
 <label x="22.86" y="66.04" size="1.778" layer="95"/>
@@ -3322,7 +3322,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 </net>
 <net name="SW3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO8(SPI1_SCK)"/>
+<pinref part="SEED1" gate="G$1" pin="GPIO8(SPI1_SCK)"/>
 <wire x1="35.56" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="55.88" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
 <label x="15.24" y="66.04" size="1.778" layer="95"/>
@@ -3335,7 +3335,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 </net>
 <net name="SW2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO9(SPI1_MISO)"/>
+<pinref part="SEED1" gate="G$1" pin="GPIO9(SPI1_MISO)"/>
 <wire x1="35.56" y1="53.34" x2="7.62" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="53.34" x2="7.62" y2="66.04" width="0.1524" layer="91"/>
 <label x="5.08" y="66.04" size="1.778" layer="95"/>
@@ -3348,7 +3348,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 </net>
 <net name="SW1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO10(SPI1_MOSI)"/>
+<pinref part="SEED1" gate="G$1" pin="GPIO10(SPI1_MOSI)"/>
 <wire x1="35.56" y1="50.8" x2="-2.54" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="50.8" x2="-2.54" y2="66.04" width="0.1524" layer="91"/>
 <label x="-5.08" y="66.04" size="1.778" layer="95"/>
