@@ -1312,6 +1312,112 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.127" layer="22"/>
 <wire x1="-2.54" y1="1.27" x2="-2.54" y2="2.54" width="0.127" layer="22"/>
 </package>
+<package name="SPDT_SOLDER_LUG">
+<description>&lt;b&gt;Taiway 1MS1T1B1C0M1QE&lt;/b&gt;
+&lt;br&gt;
+ &lt;a href="http://smallbear-electronics.mybigcommerce.com/spdt-on-on/"&gt;http://smallbear-electronics.mybigcommerce.com/spdt-on-on/&lt;/a&gt;</description>
+<wire x1="6.985" y1="1.651" x2="6.985" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="-1.651" x2="6.35" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="-1.651" x2="6.35" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="-2.286" x2="-6.35" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="-2.286" x2="-6.35" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="-1.651" x2="-6.985" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="-1.651" x2="-6.985" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="1.651" x2="-6.35" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="1.651" x2="-6.35" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="2.286" x2="6.35" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="2.286" x2="6.35" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="1.651" x2="6.985" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="-0.635" y2="0" width="0.127" layer="22"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.127" layer="22"/>
+<wire x1="6.35" y1="1.778" x2="6.35" y2="2.286" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="2.286" x2="-6.35" y2="2.286" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="2.286" x2="-6.35" y2="1.778" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="1.778" x2="-6.35" y2="1.651" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="1.651" x2="-6.985" y2="1.651" width="0.1524" layer="22"/>
+<wire x1="-6.985" y1="1.651" x2="-6.985" y2="-1.651" width="0.1524" layer="22"/>
+<wire x1="-6.985" y1="-1.651" x2="-6.35" y2="-1.651" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="-1.651" x2="-6.35" y2="-2.286" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="-2.286" x2="6.35" y2="-2.286" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="-2.286" x2="6.35" y2="-1.651" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="-1.651" x2="6.985" y2="-1.651" width="0.1524" layer="22"/>
+<wire x1="6.985" y1="-1.651" x2="6.985" y2="1.651" width="0.1524" layer="22"/>
+<wire x1="6.985" y1="1.651" x2="6.35" y2="1.651" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="1.651" x2="6.35" y2="1.778" width="0.1524" layer="22"/>
+<pad name="1" x="4.699" y="0" drill="2.4" shape="square" rot="R270"/>
+<pad name="2" x="0" y="0" drill="2.4" rot="R270"/>
+<pad name="3" x="-4.699" y="0" drill="2.4" rot="R270"/>
+<text x="0" y="3.048" size="1.27" layer="25" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="3.048" size="1.27" layer="26" ratio="10" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="SPDT_MINI/WIRED">
+<description>&lt;b&gt;Mountain 10TC410&lt;/b&gt;
+&lt;br&gt;
+ &lt;a href="http://smallbear-electronics.mybigcommerce.com/spdt-on-on-mountain-10tc410/"&gt;http://smallbear-electronics.mybigcommerce.com/spdt-on-on-mountain-10tc410/&lt;/a&gt;</description>
+<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.127" layer="22"/>
+<wire x1="3.81" y1="2.54" x2="-3.81" y2="2.54" width="0.127" layer="22"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="2.54" width="0.127" layer="22"/>
+<wire x1="0" y1="0.381" x2="0" y2="-0.381" width="0.127" layer="22"/>
+<wire x1="-0.381" y1="0" x2="0.381" y2="0" width="0.127" layer="22"/>
+<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-2.794" y1="1.905" x2="-3.556" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-3.556" y1="1.905" x2="-3.302" y2="2.159" width="0.127" layer="21"/>
+<wire x1="-3.556" y1="1.905" x2="-3.302" y2="1.651" width="0.127" layer="21"/>
+<wire x1="2.794" y1="1.905" x2="3.556" y2="1.905" width="0.127" layer="21"/>
+<wire x1="3.556" y1="1.905" x2="3.302" y2="2.159" width="0.127" layer="21"/>
+<wire x1="3.556" y1="1.905" x2="3.302" y2="1.651" width="0.127" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.2" diameter="2.1844" shape="square"/>
+<pad name="2" x="0" y="0" drill="1.2" diameter="2.1844"/>
+<pad name="3" x="2.54" y="0" drill="1.2" diameter="2.1844"/>
+<text x="0" y="1.905" size="0.8128" layer="25" ratio="12" align="center">&gt;NAME</text>
+<text x="0" y="1.905" size="0.8128" layer="26" ratio="12" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="SPDT_PC_MOUNT">
+<description>&lt;b&gt;Taiway 1MS1T1B1C0M2QE &lt;/b&gt;
+&lt;br&gt;
+ &lt;a href="http://smallbear-electronics.mybigcommerce.com/spdt-on-on-0218a/"&gt;http://smallbear-electronics.mybigcommerce.com/spdt-on-on-0218a/&lt;/a&gt;</description>
+<wire x1="0.635" y1="0" x2="-0.635" y2="0" width="0.127" layer="22"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.127" layer="22"/>
+<wire x1="6.35" y1="1.778" x2="6.35" y2="2.286" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="2.286" x2="-6.35" y2="2.286" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="2.286" x2="-6.35" y2="1.778" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="1.778" x2="-6.35" y2="1.651" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="1.651" x2="-6.985" y2="1.651" width="0.1524" layer="22"/>
+<wire x1="-6.985" y1="1.651" x2="-6.985" y2="-1.651" width="0.1524" layer="22"/>
+<wire x1="-6.985" y1="-1.651" x2="-6.35" y2="-1.651" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="-1.651" x2="-6.35" y2="-2.286" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="-2.286" x2="6.35" y2="-2.286" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="-2.286" x2="6.35" y2="-1.651" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="-1.651" x2="6.985" y2="-1.651" width="0.1524" layer="22"/>
+<wire x1="6.985" y1="-1.651" x2="6.985" y2="1.651" width="0.1524" layer="22"/>
+<wire x1="6.985" y1="1.651" x2="6.35" y2="1.651" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="1.651" x2="6.35" y2="1.778" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="1.778" x2="-6.35" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="2.286" x2="6.35" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="2.286" x2="6.35" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="1.778" x2="6.35" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="1.651" x2="6.985" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="1.651" x2="6.985" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="-1.651" x2="6.35" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="-1.651" x2="6.35" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="-2.286" x2="-6.35" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="-2.286" x2="-6.35" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="-1.651" x2="-6.985" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="-1.651" x2="-6.985" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="1.651" x2="-6.35" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="1.651" x2="-6.35" y2="1.778" width="0.1524" layer="21"/>
+<pad name="1" x="4.699" y="0" drill="1.6" shape="square" rot="R270"/>
+<pad name="2" x="0" y="0" drill="1.6" rot="R270"/>
+<pad name="3" x="-4.699" y="0" drill="1.6" rot="R270"/>
+<text x="0" y="3.048" size="1.27" layer="25" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="3.048" size="1.27" layer="26" ratio="10" rot="MR0" align="center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SPST">
@@ -1321,6 +1427,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="P" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="S" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
 <text x="2.54" y="-1.27" size="1.778" layer="95" rot="R90" align="center">&gt;NAME</text>
+</symbol>
+<symbol name="KS-U">
+<circle x="0" y="2.54" radius="0.762" width="0.4064" layer="94"/>
+<circle x="5.08" y="2.54" radius="0.762" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="-3.175" x2="2.54" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0.635" y2="3.175" width="0.254" layer="94"/>
+<pin name="O" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="P" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="S" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<text x="-1.27" y="-3.175" size="1.778" layer="95" rot="R90" align="center">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1334,6 +1450,44 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connects>
 <connect gate="G$1" pin="P" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPDT" prefix="SW" uservalue="yes">
+<description>&lt;b&gt;SPDT Toggle Switches&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="KS-U" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name=".1" package="SPDT_SOLDER_LUG">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".3" package="SPDT_MINI/WIRED">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".2" package="SPDT_PC_MOUNT">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2210,33 +2364,6 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="TS1107A1AP">
-<description>&lt;b&gt;TO-92&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="0.89" diameter="1.1"/>
-<pad name="2" x="1.27" y="0" drill="0.89" diameter="1.1"/>
-<pad name="3" x="2.54" y="0" drill="0.89" diameter="1.1"/>
-<text x="1.27" y="1.075" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="1.27" y="1.075" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.08" y1="4.35" x2="4.62" y2="4.35" width="0.1" layer="51"/>
-<wire x1="4.62" y1="4.35" x2="4.62" y2="-2.2" width="0.1" layer="51"/>
-<wire x1="4.62" y1="-2.2" x2="-2.08" y2="-2.2" width="0.1" layer="51"/>
-<wire x1="-2.08" y1="-2.2" x2="-2.08" y2="4.35" width="0.1" layer="51"/>
-<wire x1="-0.1" y1="-1.5" x2="-0.1" y2="-1.5" width="0.2" layer="21"/>
-<wire x1="-0.1" y1="-1.5" x2="0.1" y2="-1.5" width="0.2" layer="21" curve="180"/>
-<wire x1="0.1" y1="-1.5" x2="0.1" y2="-1.5" width="0.2" layer="21"/>
-<wire x1="0.1" y1="-1.5" x2="-0.1" y2="-1.5" width="0.2" layer="21" curve="180"/>
-<wire x1="-0.73" y1="-1" x2="3.27" y2="-1" width="0.1" layer="51"/>
-<wire x1="3.27" y1="-1" x2="3.42" y2="0" width="0.1" layer="51"/>
-<wire x1="3.42" y1="0" x2="3.42" y2="0" width="0.1" layer="51"/>
-<wire x1="3.42" y1="0" x2="-0.88" y2="0" width="0.1" layer="51" curve="197.1"/>
-<wire x1="-0.88" y1="0" x2="-0.73" y2="-1" width="0.1" layer="51"/>
-<wire x1="-0.73" y1="-1" x2="3.27" y2="-1" width="0.2" layer="21"/>
-<wire x1="3.27" y1="-1" x2="3.42" y2="0" width="0.2" layer="21"/>
-<wire x1="3.42" y1="0" x2="3.42" y2="0" width="0.2" layer="21"/>
-<wire x1="3.42" y1="0" x2="-0.88" y2="0" width="0.2" layer="21" curve="197.1"/>
-<wire x1="-0.88" y1="0" x2="-0.73" y2="-1" width="0.2" layer="21"/>
-</package>
 <package name="DIP794W53P254L959H508Q8N">
 <description>&lt;b&gt;8-DIP (0.300", 7.62mm)&lt;/b&gt;&lt;br&gt;
 </description>
@@ -2264,17 +2391,6 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 </package>
 </packages>
 <symbols>
-<symbol name="L78L05CZ">
-<wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-7.62" x2="17.78" y2="2.54" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="VOUT" x="0" y="0" length="middle"/>
-<pin name="GND" x="0" y="-2.54" length="middle"/>
-<pin name="VIN" x="0" y="-5.08" length="middle"/>
-</symbol>
 <symbol name="TL072CP">
 <wire x1="5.08" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
 <wire x1="22.86" y1="-10.16" x2="22.86" y2="2.54" width="0.254" layer="94"/>
@@ -2293,32 +2409,6 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="L78L05CZ" prefix="IC">
-<description>&lt;b&gt;Linear Voltage Regulators 5.0V 0.1A Positive&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.st.com/resource/en/datasheet/l78l.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="L78L05CZ" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TS1107A1AP">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VIN" pad="3"/>
-<connect gate="G$1" pin="VOUT" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Linear Voltage Regulators 5.0V 0.1A Positive" constant="no"/>
-<attribute name="HEIGHT" value="4.95mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="L78L05CZ" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="511-L78L05CZ" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L78L05CZ?qs=5Uvc6lfWVJwa%2FaCbeWTUug%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TL072CP" prefix="IC">
 <description>&lt;b&gt;Dual Low-Noise JFET-Input General-Purpose Operational Amplifier&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &lt;/a&gt;</description>
@@ -2597,6 +2687,59 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 </deviceset>
 </devicesets>
 </library>
+<library name="regulators">
+<packages>
+<package name="TO92-">
+<wire x1="2.095" y1="1.651" x2="0.7869" y2="-2.5484" width="0.1524" layer="21" curve="-111.097684" cap="flat"/>
+<wire x1="-0.7869" y1="-2.5484" x2="-2.095" y2="1.651" width="0.1524" layer="21" curve="-111.097684" cap="flat"/>
+<wire x1="2.095" y1="1.651" x2="-2.095" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="2.254" y1="1.143" x2="-2.254" y2="1.143" width="0.1524" layer="51"/>
+<wire x1="0.7864" y1="-2.5484" x2="-0.7864" y2="-2.5484" width="0.1524" layer="51" curve="-34.298964" cap="flat"/>
+<pad name="1" x="-2.54" y="0" drill="1.1" diameter="1.9304" shape="square"/>
+<pad name="2" x="0" y="0" drill="1.1" diameter="1.9304"/>
+<pad name="3" x="2.54" y="0" drill="1.1" diameter="1.9304"/>
+<text x="0" y="-1.778" size="1.016" layer="25" ratio="12" align="center">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="78XX">
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="-7.62" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.1524" layer="97"/>
+<wire x1="1.905" y1="0" x2="1.27" y2="0.635" width="0.1524" layer="97"/>
+<wire x1="1.905" y1="0" x2="1.27" y2="-0.635" width="0.1524" layer="97"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.4064" layer="94"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="VI" x="-10.16" y="0" visible="off" length="short" direction="in"/>
+<pin name="VO" x="10.16" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="5.969" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="3.937" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="-0.762" y="-4.318" size="1.524" layer="95">G</text>
+<text x="-6.35" y="-0.635" size="1.4224" layer="97">I</text>
+<text x="5.08" y="-0.635" size="1.4224" layer="97">O</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LM78L05" prefix="REG">
+<gates>
+<gate name="G$1" symbol="78XX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92-">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VI" pad="1"/>
+<connect gate="G$1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2622,10 +2765,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SW1" library="switches" deviceset="SPST" device=""/>
-<part name="SW2" library="switches" deviceset="SPST" device=""/>
-<part name="SW3" library="switches" deviceset="SPST" device=""/>
-<part name="SW4" library="switches" deviceset="SPST" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -2653,7 +2792,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND23" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="IC2" library="SamacSys_Parts" deviceset="L78L05CZ" device=""/>
 <part name="IC1" library="SamacSys_Parts" deviceset="TL072CP" device=""/>
 <part name="R2" library="resistors" deviceset="R" device=".3B" value="1M"/>
 <part name="R9" library="resistors" deviceset="R" device=".3B" value="1M"/>
@@ -2692,6 +2830,11 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <part name="C3" library="capacitors-film" deviceset="CAP" device=".5" value="1u"/>
 <part name="C2" library="capacitors-film" deviceset="CAP" device=".5" value="1u"/>
 <part name="C6" library="capacitors-film" deviceset="CAP" device=".5" value="1u"/>
+<part name="SW1" library="switches" deviceset="SPDT" device=".1"/>
+<part name="SW2" library="switches" deviceset="SPDT" device=".1"/>
+<part name="SW3" library="switches" deviceset="SPDT" device=".1"/>
+<part name="SW4" library="switches" deviceset="SPDT" device=".1"/>
+<part name="IC2" library="regulators" deviceset="LM78L05" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2750,29 +2893,17 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <instance part="GND8" gate="1" x="210.82" y="33.02" smashed="yes">
 <attribute name="VALUE" x="210.82" y="32.766" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SW1" gate="G$1" x="45.72" y="-15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="43.18" y="-13.97" size="1.778" layer="95" rot="R270" align="center"/>
+<instance part="GND9" gate="1" x="43.18" y="-30.48" smashed="yes">
+<attribute name="VALUE" x="43.18" y="-30.734" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SW2" gate="G$1" x="58.42" y="-15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="55.88" y="-13.97" size="1.778" layer="95" rot="R270" align="center"/>
+<instance part="GND10" gate="1" x="55.88" y="-30.48" smashed="yes">
+<attribute name="VALUE" x="55.88" y="-30.734" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SW3" gate="G$1" x="71.12" y="-15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.58" y="-13.97" size="1.778" layer="95" rot="R270" align="center"/>
+<instance part="GND11" gate="1" x="68.58" y="-30.48" smashed="yes">
+<attribute name="VALUE" x="68.58" y="-30.734" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SW4" gate="G$1" x="83.82" y="-15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="81.28" y="-13.97" size="1.778" layer="95" rot="R270" align="center"/>
-</instance>
-<instance part="GND9" gate="1" x="45.72" y="-30.48" smashed="yes">
-<attribute name="VALUE" x="45.72" y="-30.734" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="GND10" gate="1" x="58.42" y="-30.48" smashed="yes">
-<attribute name="VALUE" x="58.42" y="-30.734" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="GND11" gate="1" x="71.12" y="-30.48" smashed="yes">
-<attribute name="VALUE" x="71.12" y="-30.734" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="GND12" gate="1" x="83.82" y="-30.48" smashed="yes">
-<attribute name="VALUE" x="83.82" y="-30.734" size="1.778" layer="96" align="top-center"/>
+<instance part="GND12" gate="1" x="81.28" y="-30.48" smashed="yes">
+<attribute name="VALUE" x="81.28" y="-30.734" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="FS1" gate="G$1" x="96.52" y="-15.24" smashed="yes" rot="R180">
 <attribute name="NAME" x="93.98" y="-13.97" size="1.778" layer="95" rot="R270" align="center"/>
@@ -2821,21 +2952,17 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <instance part="GND19" gate="1" x="-99.06" y="-22.86" smashed="yes">
 <attribute name="VALUE" x="-99.06" y="-23.114" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND20" gate="1" x="-71.12" y="-22.86" smashed="yes">
-<attribute name="VALUE" x="-71.12" y="-23.114" size="1.778" layer="96" align="top-center"/>
+<instance part="GND20" gate="1" x="-73.66" y="-22.86" smashed="yes">
+<attribute name="VALUE" x="-73.66" y="-23.114" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND21" gate="1" x="-114.3" y="30.48" smashed="yes">
 <attribute name="VALUE" x="-114.3" y="30.226" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND22" gate="1" x="-48.26" y="-22.86" smashed="yes">
-<attribute name="VALUE" x="-48.26" y="-23.114" size="1.778" layer="96" align="top-center"/>
+<instance part="GND22" gate="1" x="-60.96" y="-22.86" smashed="yes">
+<attribute name="VALUE" x="-60.96" y="-23.114" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND23" gate="1" x="-86.36" y="-22.86" smashed="yes">
 <attribute name="VALUE" x="-86.36" y="-23.114" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="IC2" gate="G$1" x="-88.9" y="7.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="-93.98" y="16.51" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="-78.74" y="13.97" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="IC1" gate="G$1" x="-109.22" y="48.26" smashed="yes">
 <attribute name="NAME" x="-102.87" y="53.34" size="1.778" layer="95" align="center-left"/>
@@ -2918,13 +3045,13 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <attribute name="NAME" x="-102.108" y="-5.08" size="1.778" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="-96.012" y="-5.08" size="1.778" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="C9" gate="G$1" x="-71.12" y="-5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="-74.168" y="-5.08" size="1.778" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="-68.072" y="-5.08" size="1.778" layer="96" rot="R90" align="center"/>
+<instance part="C9" gate="G$1" x="-73.66" y="-5.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="-76.708" y="-5.08" size="1.778" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-70.612" y="-5.08" size="1.778" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="C5" gate="G$1" x="-48.26" y="-5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="-51.308" y="-5.08" size="1.778" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="-45.212" y="-5.08" size="1.778" layer="96" rot="R90" align="center"/>
+<instance part="C5" gate="G$1" x="-60.96" y="-5.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="-64.008" y="-5.08" size="1.778" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-57.912" y="-5.08" size="1.778" layer="96" rot="R90" align="center"/>
 </instance>
 <instance part="C7" gate="G$1" x="-127" y="33.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="-123.952" y="33.02" size="1.778" layer="95" rot="R270" align="center"/>
@@ -2946,6 +3073,22 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <attribute name="NAME" x="-165.1" y="40.132" size="1.778" layer="95" rot="R180" align="center"/>
 <attribute name="VALUE" x="-165.1" y="46.228" size="1.778" layer="96" rot="R180" align="center"/>
 </instance>
+<instance part="SW1" gate="1" x="48.26" y="-15.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="49.53" y="-12.065" size="1.778" layer="95" rot="R270" align="center"/>
+</instance>
+<instance part="SW2" gate="1" x="60.96" y="-15.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="62.23" y="-12.065" size="1.778" layer="95" rot="R270" align="center"/>
+</instance>
+<instance part="SW3" gate="1" x="73.66" y="-15.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="74.93" y="-12.065" size="1.778" layer="95" rot="R270" align="center"/>
+</instance>
+<instance part="SW4" gate="1" x="86.36" y="-15.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="87.63" y="-12.065" size="1.778" layer="95" rot="R270" align="center"/>
+</instance>
+<instance part="IC2" gate="G$1" x="-86.36" y="5.08" smashed="yes">
+<attribute name="NAME" x="-86.36" y="8.509" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="-86.36" y="3.937" size="1.778" layer="96" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2966,17 +3109,15 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <wire x1="-111.76" y1="5.08" x2="-111.76" y2="-1.27" width="0.1524" layer="91"/>
 <junction x="-124.46" y="5.08"/>
 <wire x1="-111.76" y1="5.08" x2="-99.06" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-99.06" y1="5.08" x2="-99.06" y2="2.54" width="0.1524" layer="91"/>
 <junction x="-111.76" y="5.08"/>
-<wire x1="-99.06" y1="2.54" x2="-99.06" y2="-1.27" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="5.08" x2="-99.06" y2="-1.27" width="0.1524" layer="91"/>
 <wire x1="-111.76" y1="5.08" x2="-111.76" y2="10.16" width="0.1524" layer="91"/>
 <label x="-114.3" y="10.16" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="VIN"/>
-<wire x1="-83.82" y1="7.62" x2="-83.82" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="2.54" x2="-99.06" y2="2.54" width="0.1524" layer="91"/>
-<junction x="-99.06" y="2.54"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="IC2" gate="G$1" pin="VI"/>
+<wire x1="-99.06" y1="5.08" x2="-96.52" y2="5.08" width="0.1524" layer="91"/>
+<junction x="-99.06" y="5.08"/>
 </segment>
 </net>
 <net name="3V3_D" class="0">
@@ -3031,24 +3172,24 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <wire x1="147.32" y1="29.21" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SW1" gate="G$1" pin="S"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="45.72" y1="-20.32" x2="45.72" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-20.32" x2="43.18" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="1" pin="S"/>
 </segment>
 <segment>
-<pinref part="SW2" gate="G$1" pin="S"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="58.42" y1="-20.32" x2="58.42" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-20.32" x2="55.88" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="SW2" gate="1" pin="S"/>
 </segment>
 <segment>
-<pinref part="SW3" gate="G$1" pin="S"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="71.12" y1="-20.32" x2="71.12" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-20.32" x2="68.58" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="SW3" gate="1" pin="S"/>
 </segment>
 <segment>
-<pinref part="SW4" gate="G$1" pin="S"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="83.82" y1="-20.32" x2="83.82" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-20.32" x2="81.28" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="SW4" gate="1" pin="S"/>
 </segment>
 <segment>
 <pinref part="FS1" gate="G$1" pin="S"/>
@@ -3091,18 +3232,13 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 </segment>
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="-71.12" y1="-8.89" x2="-71.12" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="-8.89" x2="-73.66" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="-48.26" y1="-8.89" x2="-48.26" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-8.89" x2="-60.96" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="GND"/>
-<pinref part="GND23" gate="1" pin="GND"/>
-<wire x1="-86.36" y1="7.62" x2="-86.36" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
@@ -3144,6 +3280,11 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <pinref part="GND30" gate="1" pin="GND"/>
 <wire x1="-127" y1="29.21" x2="-127" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="GND"/>
+<pinref part="GND23" gate="1" pin="GND"/>
+<wire x1="-86.36" y1="-2.54" x2="-86.36" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3V3_A" class="0">
@@ -3315,9 +3456,9 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <label x="22.86" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SW4" gate="G$1" pin="P"/>
 <wire x1="83.82" y1="-10.16" x2="83.82" y2="-2.54" width="0.1524" layer="91"/>
 <label x="81.28" y="-2.54" size="1.778" layer="95"/>
+<pinref part="SW4" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="SW3" class="0">
@@ -3328,9 +3469,9 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <label x="15.24" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SW3" gate="G$1" pin="P"/>
 <wire x1="71.12" y1="-10.16" x2="71.12" y2="-2.54" width="0.1524" layer="91"/>
 <label x="68.58" y="-2.54" size="1.778" layer="95"/>
+<pinref part="SW3" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="SW2" class="0">
@@ -3341,9 +3482,9 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <label x="5.08" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SW2" gate="G$1" pin="P"/>
 <wire x1="58.42" y1="-10.16" x2="58.42" y2="-2.54" width="0.1524" layer="91"/>
 <label x="55.88" y="-2.54" size="1.778" layer="95"/>
+<pinref part="SW2" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="SW1" class="0">
@@ -3354,9 +3495,9 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <label x="-5.08" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SW1" gate="G$1" pin="P"/>
 <wire x1="45.72" y1="-10.16" x2="45.72" y2="-2.54" width="0.1524" layer="91"/>
 <label x="43.18" y="-2.54" size="1.778" layer="95"/>
+<pinref part="SW1" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -3382,25 +3523,24 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 </net>
 <net name="+5V" class="0">
 <segment>
-<wire x1="-71.12" y1="-1.27" x2="-71.12" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-71.12" y1="5.08" x2="-58.42" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="5.08" x2="-48.26" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-48.26" y1="-1.27" x2="-48.26" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-48.26" y1="5.08" x2="-48.26" y2="7.62" width="0.1524" layer="91"/>
-<junction x="-48.26" y="5.08"/>
-<label x="-50.8" y="7.62" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="VOUT"/>
-<wire x1="-88.9" y1="7.62" x2="-88.9" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-88.9" y1="5.08" x2="-71.12" y2="5.08" width="0.1524" layer="91"/>
-<junction x="-71.12" y="5.08"/>
+<wire x1="-73.66" y1="-1.27" x2="-73.66" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="5.08" x2="-68.58" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="5.08" x2="-60.96" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-1.27" x2="-60.96" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="5.08" x2="-60.96" y2="10.16" width="0.1524" layer="91"/>
+<junction x="-60.96" y="5.08"/>
+<label x="-63.5" y="10.16" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="VCC+"/>
 <wire x1="-81.28" y1="48.26" x2="-73.66" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="48.26" x2="-73.66" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-73.66" y1="17.78" x2="-58.42" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="17.78" x2="-58.42" y2="5.08" width="0.1524" layer="91"/>
-<junction x="-58.42" y="5.08"/>
+<wire x1="-73.66" y1="17.78" x2="-68.58" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="17.78" x2="-68.58" y2="5.08" width="0.1524" layer="91"/>
+<junction x="-68.58" y="5.08"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="IC2" gate="G$1" pin="VO"/>
+<wire x1="-76.2" y1="5.08" x2="-73.66" y2="5.08" width="0.1524" layer="91"/>
+<junction x="-73.66" y="5.08"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
