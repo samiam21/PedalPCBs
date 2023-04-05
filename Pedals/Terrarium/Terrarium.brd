@@ -2309,6 +2309,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="LED3" pad="P$1"/>
 <wire x1="39.37" y1="13.208" x2="40.64" y2="17.145" width="0.3048" layer="16"/>
 <wire x1="40.64" y1="17.145" x2="42.545" y2="19.05" width="0.3048" layer="16"/>
+<polygon width="0.1524" layer="1">
+<vertex x="0" y="72.898"/>
+<vertex x="0" y="0.254"/>
+<vertex x="0.254" y="0"/>
+<vertex x="59.182" y="0"/>
+<vertex x="59.436" y="0.254"/>
+<vertex x="59.436" y="72.898"/>
+</polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="0" y="72.898"/>
+<vertex x="0" y="0"/>
+<vertex x="59.436" y="0"/>
+<vertex x="59.436" y="72.898"/>
+</polygon>
 </signal>
 <signal name="3V3_A">
 <contactref element="SEED1" pad="21"/>
