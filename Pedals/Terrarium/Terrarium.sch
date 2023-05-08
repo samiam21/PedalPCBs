@@ -3250,14 +3250,14 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <instance part="GND25" gate="1" x="-43.18" y="27.94" smashed="yes">
 <attribute name="VALUE" x="-43.18" y="27.686" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="OUT" gate="G$1" x="-40.64" y="60.96" smashed="yes">
-<attribute name="NM" x="-45.72" y="66.04" size="1.778" layer="96"/>
+<instance part="OUT" gate="G$1" x="-35.56" y="60.96" smashed="yes">
+<attribute name="NM" x="-40.64" y="66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="OUT_GND" gate="G$1" x="-30.48" y="48.26" smashed="yes">
-<attribute name="NM" x="-30.48" y="48.26" size="1.778" layer="96" display="off"/>
+<instance part="OUT_GND" gate="G$1" x="-25.4" y="48.26" smashed="yes">
+<attribute name="NM" x="-25.4" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND26" gate="1" x="-30.48" y="40.64" smashed="yes">
-<attribute name="VALUE" x="-30.48" y="40.386" size="1.778" layer="96" align="top-center"/>
+<instance part="GND26" gate="1" x="-25.4" y="40.64" smashed="yes">
+<attribute name="VALUE" x="-25.4" y="40.386" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="IN" gate="G$1" x="-180.34" y="58.42" smashed="yes">
 <attribute name="NM" x="-182.88" y="63.5" size="1.778" layer="96"/>
@@ -3344,8 +3344,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <instance part="SW5" gate="A" x="-180.34" y="50.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="-175.895" y="54.102" size="1.778" layer="95" rot="R270" align="center"/>
 </instance>
-<instance part="SW5" gate="B" x="-38.1" y="53.34" smashed="yes">
-<attribute name="NAME" x="-42.545" y="50.038" size="1.778" layer="95" rot="R90" align="center"/>
+<instance part="SW5" gate="B" x="-35.56" y="53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="-31.115" y="56.642" size="1.778" layer="95" rot="R270" align="center"/>
 </instance>
 <instance part="SW5" gate="C" x="-160.02" y="0" smashed="yes" rot="R90">
 <attribute name="NAME" x="-156.718" y="-4.445" size="1.778" layer="95" rot="R180" align="center"/>
@@ -3530,7 +3530,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <segment>
 <pinref part="OUT_GND" gate="G$1" pin="P$1"/>
 <pinref part="GND26" gate="1" pin="GND"/>
-<wire x1="-30.48" y1="48.26" x2="-30.48" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="48.26" x2="-25.4" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IN_GND" gate="G$1" pin="P$1"/>
@@ -3859,10 +3859,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="-43.18" y1="45.72" x2="-43.18" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="-43.18" y1="45.72" x2="-38.1" y2="45.72" width="0.1524" layer="91"/>
 <junction x="-43.18" y="45.72"/>
-<pinref part="SW5" gate="B" pin="2"/>
-<wire x1="-38.1" y1="45.72" x2="-38.1" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="SW5" gate="B" pin="1"/>
+<wire x1="-43.18" y1="45.72" x2="-33.02" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="45.72" x2="-33.02" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -3923,23 +3923,16 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <wire x1="-180.34" y1="58.42" x2="-180.34" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="SW5" gate="B" pin="1"/>
-<pinref part="OUT" gate="G$1" pin="P$1"/>
-<wire x1="-40.64" y1="58.42" x2="-40.64" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="BYPASS" class="0">
-<segment>
-<pinref part="SW5" gate="B" pin="3"/>
-<wire x1="-35.56" y1="58.42" x2="-35.56" y2="60.96" width="0.1524" layer="91"/>
-<label x="-38.1" y="60.96" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="SW5" gate="A" pin="3"/>
 <wire x1="-182.88" y1="45.72" x2="-182.88" y2="43.18" width="0.1524" layer="91"/>
 <label x="-185.42" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SW5" gate="B" pin="3"/>
+<wire x1="-38.1" y1="48.26" x2="-38.1" y2="43.18" width="0.1524" layer="91"/>
+<label x="-40.64" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -3954,6 +3947,13 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl071a.pdf"&gt; Datasheet &
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="-180.34" y1="-2.54" x2="-185.42" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="OUT" gate="G$1" pin="P$1"/>
+<pinref part="SW5" gate="B" pin="2"/>
+<wire x1="-35.56" y1="60.96" x2="-35.56" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
