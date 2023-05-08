@@ -2039,10 +2039,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="2.6825" y="54.1825" size="1.778" layer="21" rot="R90"/>
 </element>
 <element name="PWR" library="supply pins" package="UNLABELED" value="PADRD" x="21.59" y="69.85" smashed="yes">
-<attribute name="NM" value="+" x="20.32" y="70.485" size="1.778" layer="27"/>
+<attribute name="NM" value="+" x="20.32" y="70.485" size="1.778" layer="21"/>
 </element>
 <element name="GND" library="supply pins" package="UNLABELED" value="PADRD" x="39.37" y="69.85" smashed="yes">
-<attribute name="NM" value="-" x="38.1" y="70.485" size="1.778" layer="27"/>
+<attribute name="NM" value="-" x="38.1" y="70.485" size="1.778" layer="21"/>
 </element>
 <element name="LED1" library="diodes" package="3MM_2" value="LED.3" x="43.815" y="23.749" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.815" y="25.908" size="0.8128" layer="25" rot="R180" align="center"/>
@@ -2085,13 +2085,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="40.64" y="62.23" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="OUT" library="supply pins" package="UNLABELED" value="PADRD" x="57.15" y="66.04" smashed="yes">
-<attribute name="NM" value="OUT" x="56.515" y="67.31" size="0.8128" layer="27"/>
+<attribute name="NM" value="OUT" x="56.515" y="67.31" size="0.8128" layer="21"/>
 </element>
 <element name="OUT_GND" library="supply pins" package="UNLABELED" value="PADRD" x="43.18" y="69.85" smashed="yes">
 <attribute name="NM" value="GND" x="43.18" y="69.85" size="1.778" layer="27" display="off"/>
 </element>
 <element name="IN" library="supply pins" package="UNLABELED" value="PADRD" x="2.54" y="66.04" smashed="yes">
-<attribute name="NM" value="IN" x="1.27" y="67.31" size="0.8128" layer="27"/>
+<attribute name="NM" value="IN" x="1.27" y="67.31" size="0.8128" layer="21"/>
 </element>
 <element name="IN_GND" library="supply pins" package="UNLABELED" value="PADRD" x="17.78" y="69.85" smashed="yes">
 <attribute name="NM" value="GND" x="17.78" y="69.85" size="1.778" layer="27" display="off"/>
