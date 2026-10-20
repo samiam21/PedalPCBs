@@ -2959,7 +2959,7 @@
 			(at 0 -3.048 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "c028549d-be3e-44ea-a9b7-a532cb1871e8")
+			(uuid "338a4d88-2f48-42ac-a3e6-dfbc8a4b681f")
 			(effects
 				(font
 					(size 1.1557 1.1557)
@@ -2972,7 +2972,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc68c08b-dd2e-47bd-a9a0-35fcf8841d9b")
+			(uuid "6755b895-f062-45d0-b8df-08de5b2edb3a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,7 +2984,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a805441d-06fa-43d2-a857-e14984ca6e4b")
+			(uuid "4729ba36-9deb-428b-9d82-e9ab7d9836b5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,7 +2996,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "115597b6-a677-4c11-962b-41b18b421685")
+			(uuid "3c99513b-2f08-45ec-b57b-f7f913ff9aaf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10680,7 +10680,7 @@
 		(layer "Edge.Cuts")
 		(uuid "158a30bc-4fdd-43cc-a2a3-66cc3f14ccd5")
 	)
-	(gr_text "Terrarium Clone\nREV: A"
+	(gr_text "Terrarium Clone\nREV: B"
 		(at 123.1391 134.1451 0)
 		(layer "F.SilkS")
 		(uuid "cb6ac0f0-cc4e-47f9-a2d1-f18ac6147c3d")
