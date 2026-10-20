@@ -1,0 +1,176 @@
+(footprint "16MM_PADS.2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "16mm / Solder Lug\nFor wired potentiometers\nhttp://smallbear-electronics.mybigcommerce.com/alpha-single-gang-16mm-solder-terms-linear-audio-taper/ http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-16mm-solder-terms-linear-audio-taper/")
+	(property "Reference" "REF**"
+		(at 0 -1.905 0)
+		(layer "F.SilkS")
+		(uuid "116dc426-fe7d-4951-bdaa-86d6c815314a")
+		(effects
+			(font
+				(size 0.747776 0.747776)
+				(thickness 0.065024)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "09e87515-0368-4377-8a1e-ac2b911b4652")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d9fdd5a-b2ac-4672-ad4f-3b0ac41fe43a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02b36fdb-701c-407b-97ff-39349f2301c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.08 -2.54)
+		(end 5.08 -2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a9612ea-0d4e-469d-a51d-cb7206d1eb91")
+	)
+	(fp_line
+		(start -5.08 -1.27)
+		(end -5.08 -2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22c89f99-29ac-4ea7-afcc-9e1ddf73ef17")
+	)
+	(fp_line
+		(start -5.08 -1.27)
+		(end 5.08 -1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "051101e8-2891-486c-947e-3ee03dd30e94")
+	)
+	(fp_line
+		(start -5.08 1.27)
+		(end -5.08 -1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b8c967f-1d78-4a3f-9ffd-37f9f191ba43")
+	)
+	(fp_line
+		(start 5.08 -2.54)
+		(end 5.08 -1.27)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c73f06f-89a4-4e98-bbea-0419d4b1f2a8")
+	)
+	(fp_line
+		(start 5.08 -1.27)
+		(end 5.08 1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ce89ecf-ba57-437a-be7b-2ca3be6cbc43")
+	)
+	(fp_line
+		(start 5.08 1.27)
+		(end -5.08 1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ac52050-699c-4c9f-a69d-6bf804e350f3")
+	)
+	(fp_text user "3"
+		(at -4.826 -1.524 0)
+		(layer "F.SilkS")
+		(uuid "c371b54e-3dfa-4b8b-9d77-def6e051fab9")
+		(effects
+			(font
+				(size 0.357632 0.357632)
+				(thickness 0.048768)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "1"
+		(at 4.572 -1.524 0)
+		(layer "F.SilkS")
+		(uuid "983594f8-9905-48bc-a6a9-36120119cc3e")
+		(effects
+			(font
+				(size 0.357632 0.357632)
+				(thickness 0.048768)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 3.81 0 180)
+		(size 2.032 2.032)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0635)
+		(thermal_bridge_angle 0)
+		(uuid "223d4266-d6e6-44f3-84fb-637077b1bbe7")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0 180)
+		(size 2.032 2.032)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0635)
+		(thermal_bridge_angle 0)
+		(uuid "f67ee22e-f093-42b3-9ed2-6a96039893fd")
+	)
+	(pad "3" thru_hole circle
+		(at -3.81 0 180)
+		(size 2.032 2.032)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0635)
+		(thermal_bridge_angle 0)
+		(uuid "b64a1c40-ed46-44ed-b4bb-960c571de847")
+	)
+	(embedded_fonts no)
+)
