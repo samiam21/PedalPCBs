@@ -10,8 +10,8 @@
 		(uuid "116dc426-fe7d-4951-bdaa-86d6c815314a")
 		(effects
 			(font
-				(size 0.747776 0.747776)
-				(thickness 0.065024)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
 		)
 	)
@@ -119,27 +119,25 @@
 		(uuid "9ac52050-699c-4c9f-a69d-6bf804e350f3")
 	)
 	(fp_text user "3"
-		(at -4.826 -1.524 0)
+		(at -3.81 -1.905 0)
 		(layer "F.SilkS")
 		(uuid "c371b54e-3dfa-4b8b-9d77-def6e051fab9")
 		(effects
 			(font
-				(size 0.357632 0.357632)
-				(thickness 0.048768)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
-			(justify left bottom)
 		)
 	)
 	(fp_text user "1"
-		(at 4.572 -1.524 0)
+		(at 3.81 -1.905 0)
 		(layer "F.SilkS")
 		(uuid "983594f8-9905-48bc-a6a9-36120119cc3e")
 		(effects
 			(font
-				(size 0.357632 0.357632)
-				(thickness 0.048768)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
-			(justify left bottom)
 		)
 	)
 	(pad "1" thru_hole rect
